@@ -121,6 +121,7 @@ deploy:
   repo: 
 #    gitee: git@gitee.com:zzy-ac/zzy-ac.git,master
     github: git@github.com:zzy-ac/zzy-ac.github.io.git,master
+    zzy-ac: ssh://git@8.140.109.207:2022/srv/gitrepo/blog.git,master
 # Search
 search:
   path: ./public/search.xml
