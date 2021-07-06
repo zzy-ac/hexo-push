@@ -1,0 +1,119 @@
+theme_color:
+  primary: indigo
+  accent: pink
+
+notice:
+
+favicon: /images/favicon.png
+banner: /images/banner.png
+avatar: /images/avatar.png
+rss: /atom.xml
+
+email: 3492320346@qq.com
+sns:
+  twitter:
+  facebook:
+  google_plus:
+  weibo:
+  instagram:
+  tumblr:
+  github: https://github.com/zzy-ac
+  linkedin:
+  zhihu:
+  douban:
+  qq: https://wpa.qq.com/msgrd?v=3&uin=3492320346&site=qq&menu=yes
+  wechat:
+  gitee: https://gitee.com/zzy-ac
+  telegram: https://t.me/zzy_ac
+open_graph:
+  twitter:
+  google_plus:
+  fb_admins:
+  fb_app_id:
+site_verification:
+  google:
+  baidu:
+analytics:
+  google_site_id:
+  baidu_site_id: 2bf76c8741d945e9d5479417248b01df
+  cnzz_site_id:
+
+pages:
+ - name: 点墨字体编辑器
+   link: https://zzy-ac.github.io/fonteditor/index.html
+ - name: 点墨私人云盘
+   link: https://pan.zzy-ac.top/
+ - name: 点墨私人云盘简洁版
+   link: https://zzy-ac.github.io/zzy-pan/
+ - name: 点墨在线书库
+   link: http://book.zzy-ac.top:8083/   
+ - name: 点墨小说随写
+   link: https://zzy-ac.gitee.io/zzy-book/
+links: 
+ - name: 点墨阁github
+   link: https://blog.zzy-ac.top
+# - name: 点墨阁gitee
+#   link: http://blog1.zzy-ac.top
+ - name: 朝色的小站
+   link: https://weiliang1503.gitee.io
+ - name: 采唐的垃圾堆
+   link: https://www.caitang.online
+ - name: Sakura1943
+   link: https://blog.yaoyz.cn
+ - name: 漉鲸的Blog
+   link: https://blog.lj0.top/
+since:
+footer_text: <a target="_blank" class="mdui-text-color-theme-accent"> - ❤ - </a>Theme by <a href="https://github.com/niemingzhao/niemingzhao.github.io/tree/theme" target="_blank" class="mdui-text-color-theme-accent">MDUI</a><br/><a id=beian href="http://beian.miit.gov.cn" target="_blank" class="mdui-text-color-theme-accent">湘ICP备2021009217号</a>
+license:
+
+gallery:
+  fancybox_css: https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css
+  fancybox_js: https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js
+  jquery_js: https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
+  lazyload_js: https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js
+busuanzi:
+  enable: true
+  site: true
+  page: true
+  busuanzi_js: https://blog.zzy-ac.top/js/busuanzi.pure.mini.js
+qrcode:
+  caption: 发送到手机
+  use: plugin
+donate:
+
+search:
+  placeholder: 请输入关键字
+  path: public/search.xml
+  use: plugin
+  
+comment:
+  use: valine
+  disqus_shortname: 
+  gitalk_client_id:
+  gitalk_client_secret:
+  gitalk_repo:
+  gitalk_owner:
+  gitalk_sid_type:
+  livere_data_uid:
+  valine_leancloud_app_id: K5orS97Y6ghivBIMpJjYeG94-MdYXbMMI
+  valine_leancloud_app_key: XKP7DsXLuHTx99eQv6zLhq70
+  valine_placeholder: 快来留下你的评论吧* ^V^ * !
+  valine_page_size: 10
+  valine_avatar: mp
+  valine_lang: zh-CN
+  valine_guest_info: nick,mail,link
+  valine_notify: 
+  valine_verify: 
+  valine_sid_type: 
+  requiredFields: ['nick','mail']
+  changyan_app_id:
+  changyan_app_key:
+  changyan_sid_type:
+
+post_wordcount:
+  date: true # 发布日期
+  update: true # 更新日期
+  wordCount: true # 文章字数统计
+  totalCount: true # 站点总文章字数
+  min2read: true # 文章阅读时长
+  readCount: true # 文章阅读次数

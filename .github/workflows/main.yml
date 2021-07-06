@@ -1,0 +1,14 @@
+- name: hexo_action
+  # You may pin to the exact commit or the version.
+  # uses: esphere-dumal/hexo_action@c2dbd777c96dd3107f412c22e9d069a61cceba76
+  uses: esphere-dumal/hexo_action@1.0.0
+  with:
+    # github username
+    user_name: zzy-ac# default is github_action
+    # github user_email
+    user_email: 1304024859@qq.com# default is github_action@github.com
+    # the deploy key for repo
+    deploy_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC8UTwxmc1vXinD6MtKqeNDC2FDl0v398YsvRWoHJ9+0biIUrwv7IctqRYZ2ZqqSv8srreOKkIzp1VfmhX2dHXS/TDmIapekDd7KxO2htZVHDZ9y3/SLbsERtRaSaMQEdvdQHFrXL1dRU00xIOFh8SuSYNzRnXdql8re8u/TNBmNpWa/y91dnhWKa2GHSmIoWAdVYfpMlHDsn2taR9UA8q+prf9ZUfpGp2ofkTnlx3XUnpmowlnLwf5dK5Ht4joj2bln2j457fyUfEsWTxcj4gdZOoNDjlPBhpYMqaSRMA7jBUHGabn8SaiqrAuRtZR0jTmITX61tWwRr9HCuoAvTgQ3IEIqCOfrPKtZxPCUC54ifnkrKbiQrWxJaPpo31mst2nhk9KIwJWmG0MIkdk2o/doq5/Zn41XmM7gVNhRCyRrblxLKiV2lXG8TMS9TphwkcNgJbg+cgLIC1RWyiQWjSujQj/3x+UIaCSPmqiOkZmBLncuhqY6o+vZdcGaDLeovM= 1304024859@qq.com
+# default is 
+    # commit messages for repo
+    commit_msg: github_actiions# optional, default is 
