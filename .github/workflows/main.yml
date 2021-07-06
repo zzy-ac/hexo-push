@@ -30,8 +30,8 @@ jobs:
           chmod 700 ~/.ssh
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git config --global user.email "contact@mail.ruofei.site"
-          git config --global user.name "ruofei"
+          git config --global user.email "1304024859@qq.com"
+          git config --global user.name "zzy-ac"
           npm install hexo-cli yarn -g
           yarn
 
