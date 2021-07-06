@@ -1,4 +1,4 @@
-- name: Hexo Deploy
+- name: GitHub Action for Hexo
   # You may pin to the exact commit or the version.
-  # uses: Solybum/hexo-deploy@1b812a5466a42b59ba6958c906ab9c5f36d6a9f3
-  uses: Solybum/hexo-deploy@1.1
+  # uses: heowc/action-hexo@84e64310d283067cd9493fa31fefa2025a97ea43
+  uses: heowc/action-hexo@1.0.2-add-metadata
