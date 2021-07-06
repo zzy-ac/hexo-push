@@ -5,6 +5,6 @@ tags: github
 categories: 网页部署
 ---
 
-首先参考<a href="https://www.bt.cn/bbs/thread-5348-1-1.html">宝塔的官方教程部署好webhook
+首先参考<a href="https://www.bt.cn/bbs/thread-5348-1-1.html">宝塔的官方教程</a>部署好webhook
 然后将“Which events would you like to trigger this webhook?”选项设置为“Send me everything”
 即可
