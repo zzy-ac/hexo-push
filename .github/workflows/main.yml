@@ -1,4 +1,41 @@
-- name: GitHub Action for Hexo
-  # You may pin to the exact commit or the version.
-  # uses: heowc/action-hexo@84e64310d283067cd9493fa31fefa2025a97ea43
-  uses: heowc/action-hexo@1.0.2-add-metadata
+name: Hexo Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    if: github.event.repository.owner.id == github.event.sender.id
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+        with:
+          ref: hexo
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+      - name: Setup Hexo
+        env:
+          ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.email "contact@mail.ruofei.site"
+          git config --global user.name "ruofei"
+          npm install hexo-cli yarn -g
+          yarn
+
+      - name: Deploy
+        run: |
+          hexo clean
+          hexo deploy
