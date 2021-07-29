@@ -1,0 +1,16 @@
+---
+title: 展笺难寄
+date: 2021-07-29 23:00:00
+tags: 诗集
+categories: 诗词创作
+---
+<center>
+
+泼墨展笺寄相思，
+提笔荒唐屡忘字。
+欲使年少莫知忧，
+何故凡愁扰恣肆。
+
+</center>
+
+<center><img src="/pictures/zhanjiannanji.jpg" style="height: 120px;"></center>
