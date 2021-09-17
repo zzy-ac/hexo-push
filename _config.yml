@@ -31,7 +31,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render: 
   - "404.html"
-  - ".github/workflows/sync.yml"
+  - ".github/workflows/main.yml"
   - "baidu_verify_code-1MHvkPg0x7.html"
   - "zzy-ac-top.html"
 # Writing
@@ -101,7 +101,7 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include: 
-  - ".github/workflows/sync.yml"
+  - ".github/workflows/main.yml"
 exclude:
 ignore:
   - "zzy-ac-top.html"
