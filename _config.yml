@@ -119,7 +119,7 @@ deploy:
   type: git
   ignore_hidden: false 
   repo: 
-    gitee: git@gitee.com:zzy-ac/zzy-ac.git,master
+#    gitee: git@gitee.com:zzy-ac/zzy-ac.git,master
     github: git@github.com:zzy-ac/zzy-ac.github.io.git,master
 # Search
 search:
