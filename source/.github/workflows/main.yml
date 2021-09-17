@@ -1,6 +1,6 @@
-name: Sync
+name: main
 
-on: page_build
+on: [page_build]
 
 jobs:
   build:
