@@ -1,6 +1,6 @@
 theme_color:
-  primary: E1F5FE
-  accent: indigo
+  primary: blue-grey
+  accent: blue
   
 notice:
 
