@@ -8,8 +8,6 @@ categories: 手机折腾
 > 不知不觉，美国全方位制裁华为已经过去了很长时间了，Google响应美利坚的号召也早已正式停止了对华为设备的Google服务端支持，即使安装上去也会提示不在Google支持的设备内，这种情况无疑让很多国内用户产生了各种困扰。
 > 然而只要简单思考一下便会发现，如果对Google服务端依赖不高（你都买华为了能高到哪里去？）那么相必对相当一部分人来说，Google服务的作用便跟博主一样仅仅是因为YouTube的强制依赖。
 > 如果你也与我情况类似，那么在本片文章里我会简单的告诉你在华为手机上免Google框架而使用YouTube的方法
-
-
     在互联网上一直有着这样一批人厌恶着各种闭源的软件和服务，当然Google框架这种封闭、强硬且极其占用手机内存和后台的异端自然也是被排斥的，故microG－－伪Google框架应运而生，microG是一个Google框架的开源替代，虽然目前项目还无法完全取代Google框架的作用，但仅仅是解决YouTube对Google框架的依赖是没有问题的。
     
     于是一个名为"vanced"的团队便基于microG制作了一款将原版YouTube对Google Play Service的依赖替换为对microG的依赖，然后使得在无法正常安装Google服务端设备上登录Google账号使用YouTube，并因此做出两个软件也既是我们今天所需要用到的两款软件<code>Vanced microG</code>以及<code>YouTube Vanced</code>
