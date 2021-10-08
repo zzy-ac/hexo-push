@@ -1,7 +1,7 @@
 theme_color:
-  primary: indigo
-  accent: pink
-
+  primary: light-blue
+  accent: indigo
+  
 notice:
 
 favicon: /images/favicon.png
