@@ -1,5 +1,5 @@
 theme_color:
-  primary: mdui-color-light-blue-100
+  primary: #E1F5FE
   accent: indigo
   
 notice:
