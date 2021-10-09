@@ -47,21 +47,15 @@ pages:
    link: https://pan.zzy-ac.top/
  - name: 点墨私人云盘简洁版
    link: https://zzy-ac.github.io/zzy-pan/
- - name: 点墨在线书库
-   link: http://book.zzy-ac.top:8083/   
- - name: 点墨小说随写
-   link: https://zzy-ac.gitee.io/zzy-book/
 links: 
  - name: 点墨阁github
    link: https://zzy-ac.github.io
 # - name: 点墨阁gitee
 #   link: http://blog1.zzy-ac.top
  - name: 朝色的小站
-   link: https://weiliang1503.gitee.io
+   link: https://blog.zhaose.cyou
  - name: 采唐的垃圾堆
    link: https://www.caitang.online
- - name: Sakura1943
-   link: https://blog.yaoyz.cn
  - name: 漉鲸的Blog
    link: https://blog.lj0.top/
 since:
