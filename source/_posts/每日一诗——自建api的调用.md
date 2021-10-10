@@ -2,9 +2,9 @@
 title: 每日一诗——自建api的调用
 date: 2021-04-04 12:16:04
 uuid: a7c6abd6-a65b-dced-5369-09f53e2ffbb7
-tags:
+tags: api
 keywords:
-categories:
+categories: api
 ---
 ---
 一言——是一个在全网范围获得广泛应用的api,可以为我们提供一句随机的直戳心灵的话语。
