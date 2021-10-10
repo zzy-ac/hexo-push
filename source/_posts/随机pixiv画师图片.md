@@ -2,9 +2,9 @@
 title: 随机pixiv画师图片
 date: 2021-04-06 23:28:23
 uuid: fca60eb9-e845-b4f7-dfcc-a7fb298e221a
-tags:
+tags: api
 keywords:
-categories:
+categories: api
 ---
 <meta name="referrer" content="no-referrer"/>
 这是一个用php创作的随机图片api,图片源自pixiv。
