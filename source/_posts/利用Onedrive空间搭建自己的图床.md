@@ -20,9 +20,11 @@ categories: 网页部署
 ## 最终效果图
 ***
 <center>
-<img src="/pictures/tc_picture_00.png" alt="tc_picture_00" style="height: 400px;width: 700px;">
-<img src="https://imagehost.mintimate.cn/post_oneindex/effect1.png" alt="tc_picture_02" style="height: 400px;width: 700px;">
-<img src="/pictures/tc_picture_01.png" alt="tc_picture_01" style="height: 400px;width: 700px;">
+
+{% fb_img /pictures/tc_picture_00.png tc_picture_00 %}
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/effect1.png tc_picture_02 %}
+{% fb_img /pictures/tc_picture_01.png tc_picture_01 %}
+
 </center>
 
 <br>
@@ -43,11 +45,11 @@ categories: 网页部署
 
 服务器安装宝塔后，安装PHP（建议5.6～7.4版本）、Nginx（版本随意）：
 
-<img src="https://imagehost.mintimate.cn/post_oneindex/install.png" alt="install" style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/install.png install %}
 
 之后，选择网站–添加网站：
 
-<img src="https://imagehost.mintimate.cn/post_oneindex/install1.png" alt="install1" style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/install1.png install1 %}
 
 之后打开这个网站的目录，下载这个Oneindex项目master到本目录：
 
@@ -56,15 +58,15 @@ categories: 网页部署
 ### 下载源码
 ***
 
-<img src="https://imagehost.mintimate.cn/post_oneindex/install2.png" lazyload alt="下载源码"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/install2.png 下载源码 %}
 
 之后设置权限，给www用户全部读写权限，进入网站：
 
-<img src="https://imagehost.mintimate.cn/post_oneindex/install3.png" lazyload alt="环境检测"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/install3.png 环境检测 %}
 
 之后，点击下一步以后，出现界面：
 
-<img src="https://imagehost.mintimate.cn/post_oneindex/install4.png" lazyload alt="等待参数"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/install4.png 等待参数 %}
 
 我们的环境准备就完成了。
 
@@ -72,7 +74,7 @@ categories: 网页部署
 
 可以从这张图里看到：
 
-<img src="https://imagehost.mintimate.cn/post_oneindex/install4.png" lazyload alt="等待参数"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/install4.png 等待参数 %}
 
 我们需要三个参数：
 
@@ -86,7 +88,7 @@ categories: 网页部署
 如果你是世纪互联版本OneDrive，到[Microsoft Azure.cn App registrations](https://portal.azure.cn/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade)内创建。
 
 
-<img src="https://imagehost.mintimate.cn/post_oneindex/createApplication0.png" lazyload alt="创建应用"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/createApplication0.png 创建应用 %}
 
 之后，我们填入需要的参数：
 
@@ -94,20 +96,20 @@ categories: 网页部署
 * 受支持的帐户类型：如图：选择任何组织目录的账号和个人
 * 重定向 URI：这里填入作者Mintimate建立的API：     <code>https://tool.mintimate.cn/oneindexM/ </code>
 
-<img src="https://imagehost.mintimate.cn/post_oneindex/createApplication1.png" lazyload alt="填入参数"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/createApplication1.png 填入参数 %}
 
 之后，点击注册即可。
 
 ### 获取应用ID
 ***
 应用ID很好获取，注册了后，即可获得：
-<img src="https://imagehost.mintimate.cn/post_oneindex/getID0.png" lazyload alt="填入参数"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/getID0.png 填入参数 %}
 
 ### 设置权限
 *** 
 在获取应用机密前，我们需要设置权限，点击：<code>API权限</code>-<code>Microsoft Graph</code>:
 
-<img src="https://imagehost.mintimate.cn/post_oneindex/setAPI.png" lazyload alt="设置权限"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/setAPI.png 设置权限 %}
 
 依此勾选：
 
@@ -118,37 +120,37 @@ categories: 网页部署
 最后**更新权限**即可：
 
 
-<img src="https://imagehost.mintimate.cn/post_oneindex/setAPIFinished.png" lazyload alt="设置权限-完成"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/setAPIFinished.png 设置权限-完成 %}
 
 到此，设置权限结束，接下来，我们可以去获取机密了。
 
 ### 获取机密
 ***
 最后，我们可以获取应用机密（密钥）了，点击：<code>证书和密码</code>-<code>新建客户端密码</code>：
-<img src="https://imagehost.mintimate.cn/post_oneindex/newPasswd.png" lazyload alt="获取密钥"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/newPasswd.png 获取密钥 %}
 
 按提示设置即可得到：
-<img src="https://imagehost.mintimate.cn/post_oneindex/newPasswdFinished.png" lazyload alt="获取密钥-完成"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/newPasswdFinished.png 获取密钥-完成 %}
 
 ## 初始化OneIndex
 ***
 上一步，我们已经得到了**应用ID和机密**，现在我们填入即可：
-<img src="https://imagehost.mintimate.cn/post_oneindex/inputID.png" lazyload alt="输入ID和密钥"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/inputID.png 输入ID和密钥 %}
 
 之后，点击<code>下一步</code>-<code>绑定账号</code>，即可完成绑定：
-<img src="https://imagehost.mintimate.cn/post_oneindex/makeConnection.png" lazyload alt="绑定确认"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/makeConnection.png 绑定确认 %}
 
-<img src="https://imagehost.mintimate.cn/post_oneindex/Connection.png" lazyload alt="绑定成功"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/Connection.png 绑定成功 %}
 
 你可以选择**进入后台**,也可以选择直接浏览效果页面。（默认为你OneDrive的根目录）
 
 ## 搭建图床
 首先，我们需要初始化网盘，进入后台后点击**页面缓存**，选择**重建所有缓存**：
 
-<img src="https://imagehost.mintimate.cn/post_oneindex/use.png" lazyload alt="tc_picture_03.png"  style="height: 400px;width: 700px;">
+{% fb_img https://imagehost.mintimate.cn/post_oneindex/use.png tc_picture_03.png %}
 
 之后按顺序点击**图床设置(OneImages)** ，勾选**作为网站首页**以及**允许游客上传图片**：
-<img src="/pictures/tc_picture_03.png" lazyload alt="tc_picture_03.png"  style="height: 400px;width: 700px;">
+{% fb_img /pictures/tc_picture_03.png tc_picture_03.png %}
 至此我们就完成了一个完整的图床搭建过程，只需要绑定上我们自己的域名，就可以愉快的使用了。（非必须）
 
  * 注：本文部分内容转载自 <code>Mintimate's Blog</code>[原文地址](https://www.mintimate.cn/2020/09/22/oneindex/)

@@ -35,6 +35,7 @@
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
+    "hexo-tag-fancybox_img": "^1.0.1",
     "hexo-theme-fluid": "^1.8.6",
     "hexo-wordcount": "^6.0.1",
     "live2d-widget-model-hibiki": "^1.0.5",
