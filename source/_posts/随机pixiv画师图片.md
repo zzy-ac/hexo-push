@@ -13,4 +13,4 @@ categories: api
 
 * 以下是随机图片展示  
 
-<center>{% fb_img https://api.zzy-ac.top/Pixiv_Images 随机插图 %}</center>
+<center><a href="https://api.zzy-ac.top/Pixiv_Images" data-fancybox="images" data-caption="随机插图"><img src="https://api.zzy-ac.top/Pixiv_Images" width ="480"    /></a></center>
