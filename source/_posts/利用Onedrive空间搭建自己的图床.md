@@ -147,7 +147,7 @@ categories: 网页部署
 
 <img src="/pictures/tc_picture_03.png" lazyload alt="tc_picture_03.png"  style="height: 400px;width: 700px;">
 
-之后按顺序点击**图床设置(OneImages)**，勾选**作为网站首页**以及**允许游客上传图片**
+之后按顺序点击**图床设置(OneImages)** ，勾选**作为网站首页**以及**允许游客上传图片**：
 <img src="/pictures/tc_picture_03.png" lazyload alt="tc_picture_03.png"  style="height: 400px;width: 700px;">
 至此我们就完成了一个完整的图床搭建过程，只需要绑定上我们自己的域名，就可以愉快的使用了。（非必须）
 
