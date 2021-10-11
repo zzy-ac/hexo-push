@@ -145,7 +145,7 @@ categories: 网页部署
 ## 搭建图床
 首先，我们需要初始化网盘，进入后台后点击**页面缓存**，选择**重建所有缓存**：
 
-<img src="/pictures/tc_picture_03.png" lazyload alt="tc_picture_03.png"  style="height: 400px;width: 700px;">
+<img src="https://imagehost.mintimate.cn/post_oneindex/use.png" lazyload alt="tc_picture_03.png"  style="height: 400px;width: 700px;">
 
 之后按顺序点击**图床设置(OneImages)** ，勾选**作为网站首页**以及**允许游客上传图片**：
 <img src="/pictures/tc_picture_03.png" lazyload alt="tc_picture_03.png"  style="height: 400px;width: 700px;">
