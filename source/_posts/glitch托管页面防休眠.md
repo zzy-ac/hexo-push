@@ -8,7 +8,8 @@ categories: 网页部署
 ---
 
 > Glitch是一个帮助程序员建立理想应用程序的友好社区，对于初学者来说，这个社区简直就像及时雨，他们可以对Glitch中所有的酷炫项目进行调整，做出符合自己想象的网站。
-<center><img src="/pictures/glitch.png" style="height: 480px;"></center>
+
+{% fb_img /pictures/glitch.png 插图 %}
 
 然而免费版的glitch网页限制5分钟内没有人访问的话，就会自动进入休眠，这无疑给网站的日常使用带来了不便，只是随便部署上去看看效果那还好说，如果真的要将网站投入使用，必然会引起诸多麻烦。
 因此需要有一个合适的手段来使glitch网页能够避免休眠。
