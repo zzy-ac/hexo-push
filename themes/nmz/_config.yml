@@ -39,16 +39,18 @@ analytics:
   cnzz_site_id:
 
 pages:
- - name: 点墨markdown编辑器
-   link: https://zzy-ac.github.io/MarkdownOnline/
- - name: 点墨字体编辑器
-   link: https://zzy-ac.github.io/fonteditor/index.html
+ - name: 点墨图床
+   link: https://tc.zzy-ac.top/
  - name: 点墨私人云盘
    link: https://pan.zzy-ac.top/
  - name: 点墨私人云盘简洁版
    link: https://zzy-ac.github.io/zzy-pan/
- - name: 点墨图床
-   link: https://tc.zzy-ac.top/
+ - name: 点墨字体编辑器
+   link: https://zzy-ac.github.io/fonteditor/index.html
+   - name: 点墨markdown编辑器
+   link: https://zzy-ac.github.io/MarkdownOnline/
+ - name: 点墨的GitHub文件加速
+   link: https://gh.zzy-ac.workers.dev/
 links: 
  - name: 点墨阁github
    link: https://zzy-ac.github.io
