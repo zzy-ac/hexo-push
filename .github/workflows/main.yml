@@ -20,11 +20,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '14.x'
-      - name: Fix prims
-        run: |
-          ls -a
-          sed -i "s/\"'/&,\n  '\&#123;': '{',\n  '\&#125;': '}'/" ./node_modules/hexo-prism-plugin/src/index.js
-
 
 
       - name: Setup Hexo
@@ -40,6 +35,9 @@ jobs:
           git config --global user.name "zzy-ac"
           npm install hexo-cli yarn -g
           yarn
+          ls -a
+          sed -i "s/\"'/&,\n  '\&#123;': '{',\n  '\&#125;': '}'/" ./node_modules/hexo-prism-plugin/src/index.js
+
 
       - name: Deploy
         run: |
