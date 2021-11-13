@@ -20,6 +20,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '14.x'
+      - name: Fix prims
+        run: |
+          sed -i "s/\"'/&,\n  '\&#123;': '{',\n  '\&#125;': '}'/" ./node_modules/hexo-prism-plugin/src/index.js
+
+
 
       - name: Setup Hexo
         env:
