@@ -35,8 +35,8 @@ jobs:
           git config --global user.name "zzy-ac"
           npm install hexo-cli yarn -g
           yarn
-          ls -a
-          sed -i "s/\"'/&,\n  '\&#123;': '{',\n  '\&#125;': '}'/" ./node_modules/hexo-prism-plugin/src/index.js
+          #ls -a
+          #sed -i "s/\"'/&,\n  '\&#123;': '{',\n  '\&#125;': '}'/" ./node_modules/hexo-prism-plugin/src/index.js
 
 
       - name: Deploy
