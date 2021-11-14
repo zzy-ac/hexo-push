@@ -932,6 +932,12 @@ links:
       avatar: "https://blog.lujing0.com/favicon.ico"
     }
 
+    - {
+      title: "Sakura的随笔记录",
+      intro: "Sakura的随笔",
+      link: "https://sakura1943.gitee.io/",
+      avatar: "https://sakura1943.gitee.io/images/favicon.png"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
