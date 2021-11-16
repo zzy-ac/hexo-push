@@ -1,5 +1,7 @@
 ---
 title: about
+layout: about
+comment: 'valine'
 date: 2020-10-01 18:32:10
 ---
 <center>
