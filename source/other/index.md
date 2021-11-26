@@ -13,6 +13,11 @@ date: 2021-11-14 03:16:10
 ---
 ### [点墨图床](https://tc.zzy-ac.top/)
 ---
+### [点墨云](https://cloud.zzy-ac.top)
+
+* 由点墨搭建的公开网盘，新用户100G免费空间支持文件分享，不限速。
+
+---
 ### [点墨私人云盘](https://pan.zzy-ac.top/)
 ---
 ### [点墨私人云盘简洁版](https://zzy-ac.github.io/zzy-pan/)
