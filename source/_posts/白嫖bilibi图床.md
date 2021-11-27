@@ -1,15 +1,14 @@
+---
 title: 白嫖bilibi图床
 date: 2021-11-27 12:42:22
-tags:
+tags: 网页部署
 keywords:
-categories:
+categories: 图床建设
+---
 
 > 本文目标：通过脚本上传图片到B站，并获得外链，以作为图床使用。
->
 > 要求：
->
 > 1. 在kde桌面环境中对图片文件支持右键上传并返回链接到剪贴板，并显示系统通知。
->
 > 2. 在typora中支持从剪贴板粘贴进编辑器自动使用图床
 
 # 一、获取并修改脚本
@@ -23,6 +22,8 @@ git clong https://github.com/Brx86/bilibili-picpool.git
 ## 配置config.py
 
 首先登录Bilibili，查看Cookie，找到`bili_jct`和`SESSDATA`（必要参数）并填入`config.py`的对应位置
+
+## 修改脚本输出内容
 
 我们找到其中的`uplouder.py`，将其复制并重命名为`uploader-url.py`并修改为如下内容：
 
@@ -169,7 +170,7 @@ sudo pacman -S xclip wl-clipboard --needed
 
 ```bash
 /usr/bin/scopy
----
+​---
 #!/bin/bash
 
 if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
