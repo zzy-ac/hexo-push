@@ -210,6 +210,22 @@ cd /path/to/bilibili-picpool;python3 uploader-url.py
 
 其中`/path/to/bilibili-picpool`是脚本所在路径，如果你的路径不是这个，请修改成你自己的路径(即刚刚clone的仓库的为位置)。
 
+
+
+# 绕过B站防盗链
+
+由于某些缘故，B站的的外链做了防盗链的措施，如果直接引用到自己网站上面就会出现无法成功加载的现象。
+
+B站的防盗链，利用的是HTTP的Referer属性做判断。如果Referer是他白名单之外的网站，就会返回403。
+
+这时候我们只需要在想办法在页面的`<head>`标签下添加一行
+
+```html
+<meta name="referrer" content="no-referrer">
+```
+
+就可以绕过B站的防盗链措施了。
+
 # 最终结果
 
 >  至此我们就实现了最开始的设想——
