@@ -429,7 +429,22 @@ overrides:
 
 ```
 
+### 5、拼音输入法
+
+在`.kobo/kobo/Kobo eReader.conf`文件的`[ApplicationPreferences]`下面添加一行`ExtraLocales=zh_CN`即可
+
+### 6、禁止kobo原生系统扫描koreader等第三方插件中的七七八八的文件
+
+依然是在`.kobo/kobo/Kobo eReader.conf`文件的末尾添加如下内容：
+
+```
+[FeatureSettings]
+ExcludeSyncFolders=\\.(?!kobo|adobe).*?
+```
+
+
+
 ## 结语：
 
-点墨的kobo设备至此就配置完成了，在之后的我是与哦那个过程中只需要简单的放入kepub书籍直接观看就好了
+点墨的kobo设备至此就配置完成了，在之后的使用过程中只需要简单的放入kepub书籍直接观看就好了
 
