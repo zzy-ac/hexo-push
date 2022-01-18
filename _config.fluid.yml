@@ -948,6 +948,14 @@ links:
       avatar: "https://b23.tv/mQNf8iq"
     }
     
+    - {
+      title: "心夢博客",
+      intro: "念念不忘，必有回响！",
+      link: "https://www.xmengnet.cn",
+      avatar: "https://i.loli.net/2021/02/07/vcU5PjRu2wL1WMO.png"
+    }
+    
+    
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
   onerror_avatar: /images/avatar.png
