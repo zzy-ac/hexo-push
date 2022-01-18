@@ -924,8 +924,8 @@ links:
     - {
       title: "采唐的垃圾堆",
       intro: "垃圾也有家，欢迎回来！",
-      link: "https://www.caitang.online/",
-      avatar: "https://www.caitang.online/upload/2021/02/photo_2020-04-03_21-15-25-981ef7761d45453badb902617687e782.jpg"
+      link: "http://www.caitang.online/",
+      avatar: "http://www.caitang.online/upload/2021/02/photo_2020-04-03_21-15-25-981ef7761d45453badb902617687e782.jpg"
     }
     - {
       title: "漉鲸的Blog",
@@ -937,10 +937,17 @@ links:
     - {
       title: "Sakura的随笔记录",
       intro: "Sakura的随笔",
-      link: "https://sakura1943.gitee.io/",
-      avatar: "https://sakura1943.gitee.io/images/favicon.png"
+      link: "https://sakura1943.top/",
+      avatar: "https://gitee.com/sakura1943/imgs/raw/master/touxiang.jpg"
     }
 
+    - {
+      title: "Tsingkwai",
+      intro: "Tsingkwai——葵姐姐",
+      link: "https://tsingkwai.ruzhtw.top/",
+      avatar: "https://b23.tv/mQNf8iq"
+    }
+    
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
   onerror_avatar: /images/avatar.png
