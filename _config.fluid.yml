@@ -954,7 +954,12 @@ links:
       link: "https://www.xmengnet.cn",
       avatar: "https://i.loli.net/2021/02/07/vcU5PjRu2wL1WMO.png"
     }
-    
+    - {
+    title: "筱易物语"
+    intro: "筱易的博客"
+    link: "https://backmountaindevil.github.io/#/"
+    avatar: "https://backmountaindevil.github.io/favicon.ico"
+    }
     
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
