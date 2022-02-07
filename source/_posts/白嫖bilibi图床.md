@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
 首先看效果：
 
-![upload](https://b23.tv/QRw86JM)
+![upload](http://fars.ee/PCiH)
 
 ## 创建.desktop文件
 
