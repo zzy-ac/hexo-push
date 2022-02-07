@@ -201,7 +201,7 @@ kbuildsycoca5
 ## 具体操作：
 
 如下图，在Typora的`偏好设置`→`图象`→`上传服务设定`里：
-![image-20211127135023950](https://b23.tv/zP2FJ8b)
+![image-20211127135023950](http://fars.ee/LZTo)
 上传服务选`Custom Command`，自定义命令请填入：
 
 ```bash
