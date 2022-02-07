@@ -78,25 +78,25 @@ rm koreader-$ver-amd64.deb
 echo OK
 ```
 
-![image-20211201005340911](https://b23.tv/ypbdBxA)
+![image-20211201005340911](http://fars.ee/XV2Q)
 
 ## 用action将上述修改好的PKGBUILD文件push到aur仓库中去
 
 在这里我们使用了[KSXGitHub/github-actions-deploy-aur](https://github.com/KSXGitHub/github-actions-deploy-aur)这一现成的action来完成这一步骤。
 
-![image-20211201005539998](https://b23.tv/mVsLctT)
+![image-20211201005539998](http://fars.ee/JtH2)
 
 我们只用参照其编写的README.md中的介绍将对应的参数填入你的`main.yml`中的对应位置就可以了。
 
-![image-20211201005614409](https://b23.tv/8SqJj6o)
+![image-20211201005614409](http://fars.ee/iRUY)
 
-![image-20211201005640741](https://b23.tv/WWQ1x8n)
+![image-20211201005640741](http://fars.ee/h3T-)
 
 接下来我们只要在仓库中建立一个/数个你要打包的包名命名的文件夹，并将对应的PKGBUILD放入文件夹中就可以了。
 
-![image-20211201005712531](https://b23.tv/jjIIt39)
+![image-20211201005712531](http://fars.ee/nNJl)
 
-![image-20211201005737295](https://b23.tv/X9dn6dj)
+![image-20211201005737295](http://fars.ee/Hb7C)
 
 ## 定时运行
 
