@@ -66,7 +66,7 @@ coding作为与gitee齐名的两大国内git服务商，相比于小家子气的
 
 创建一个 [SSH key](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key) ， 将公钥`id_rsa.pub`保存到 [Github SSH keys](https://github.com/settings/keys)和 「CODING 个人账户——> SSH公钥」， 将私钥 `id_rsa` 在 GitHub 项目的 Settings -> Secrets 路径下配置好 CODING_PRIVATE_KEY
 
-![add-secret](https://gh.zzy-ac.workers.dev/https://github.com/serverlesslife-cn/sync-repo-to-coding/raw/master/img/add-secret.png)
+![add-secret](https://gh.zzy-ac.workers.dev/https://raw.githubusercontent.com/serverlesslife-cn/sync-repo-to-coding/master/img/add-secret.png)
 
 ### 创建workflow
 
