@@ -17,7 +17,7 @@ categories: archlinux
 
 ## 安装
 大概鉴于类似的需求，早已有大佬(肥猫老哥牛批！！！！)在github上上传了[vps2arch](https://github.com/felixonmars/vps2arch)脚本。通过这款脚本我们可以傻瓜式安全的在我们的服务器上安装archlinux系统
-![Screenshot_20211114232846.png](https://zzy-ac1.coding.net/p/import-p2i9/d/My-Selves-Cloud/git/raw/main//images/2021/11/14/Screenshot_20211114232846.png)
+![Screenshot_20211114232846.png](https://zzy-ac1.coding.net/p/zzy-ac/d/My-Selves-Cloud/git/raw/main//images/2021/11/14/Screenshot_20211114232846.png)
 你只需要按照肥猫大佬在README.md中写到的那样在你的服务器中输入三行指令：
 
 ```
@@ -125,7 +125,7 @@ Live Restore Enabled: false
 ### 使用基于centos创建的自带完善的宝塔环境的docker[镜像](https://hub.docker.com/r/pch18/baota)。
 
 具体操作参考该作者的介绍，遇到的问题可以先参考一下issus中给出的解决方案。
-![Screenshot_20211115000039.png](https://zzy-ac1.coding.net/p/import-p2i9/d/My-Selves-Cloud/git/raw/main//images/2021/11/15/Screenshot_20211115000039.png)
+![Screenshot_20211115000039.png](https://zzy-ac1.coding.net/p/zzy-ac/d/My-Selves-Cloud/git/raw/main//images/2021/11/15/Screenshot_20211115000039.png)
 
 
 ### 使用官方的debian最简镜像来手动安装宝塔满版
@@ -138,7 +138,7 @@ docker run -tid --name baota --net=host --privileged=true --shm-size=1g --restar
 
 随后使用宝塔[官网的一键安装脚本](https://www.bt.cn/bbs/thread-19376-1-1.html)来安装面板
 
-![Screenshot_20211115000209.png](https://zzy-ac1.coding.net/p/import-p2i9/d/My-Selves-Cloud/git/raw/main//images/2021/11/15/Screenshot_20211115000209.png)
+![Screenshot_20211115000209.png](https://zzy-ac1.coding.net/p/zzy-ac/d/My-Selves-Cloud/git/raw/main//images/2021/11/15/Screenshot_20211115000209.png)
 
 ### 注意，这样安装的宝塔面板需要在debian的docker中手动配置好ssh服务的端口不然无法在面板中直接使用终端。
 
