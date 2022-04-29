@@ -34,6 +34,7 @@ skip_render:
   - ".github/workflows/main.yml"
   - "baidu_verify_code-1MHvkPg0x7.html"
   - "zzy-ac-top.html"
+  - "404_files/style.css"
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
