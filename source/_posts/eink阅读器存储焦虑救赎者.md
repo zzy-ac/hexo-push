@@ -1,5 +1,5 @@
 ---
-title: Eink阅读器存储焦虑救赎者——Koreader
+title: Eink阅读器存储焦虑救赎者
 date: 2022-05-11 09:29:14
 tags: eink
 keywords: 
