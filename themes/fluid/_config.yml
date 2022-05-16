@@ -427,7 +427,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://api.zzy-ac.top/cover
+  banner_img: https://cover-api.vercel.app/ #https://api.zzy-ac.top/cover
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -735,7 +735,7 @@ waline:
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick']
   lang: 'zh-CN'
-  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+  emoji: ['http://cdn.dmnb.cf/gh/walinejs/emojis/weibo']
   dark: 'html[data-user-color-scheme="dark"]'
   avatar: 'retro'
   avatarCDN: 'https://seccdn.libravatar.org/avatar/'
@@ -898,7 +898,7 @@ page404:
 
 #---------------------------
 # 友链页
-# Links Page
+# Links Page Friends
 #---------------------------
 links:
   enable: true
@@ -924,8 +924,8 @@ links:
     - {
       title: "采唐的垃圾堆",
       intro: "垃圾也有家，欢迎回来！",
-      link: "https://www.caitang.online/",
-      avatar: "https://www.caitang.online/upload/2021/02/photo_2020-04-03_21-15-25-981ef7761d45453badb902617687e782.jpg"
+      link: "http://www.caitang.online/",
+      avatar: "http://www.caitang.online/upload/2021/02/photo_2020-04-03_21-15-25-981ef7761d45453badb902617687e782.jpg"
     }
     - {
       title: "漉鲸的Blog",
@@ -937,8 +937,29 @@ links:
     - {
       title: "Sakura的随笔记录",
       intro: "Sakura的随笔",
-      link: "https://sakura1943.gitee.io/",
-      avatar: "https://sakura1943.gitee.io/images/favicon.png"
+      link: "https://blog.sakunia.tk/",
+      avatar: "https://data.liyp.cc/images/sakunia-favicon.jpg"
+    }
+
+    - {
+      title: "Tsingkwai",
+      intro: "Tsingkwai——葵姐姐",
+      link: "https://tsingkwai.ruzhtw.top/",
+      avatar: "https://b23.tv/mQNf8iq"
+    }
+
+    - {
+      title: "心夢博客",
+      intro: "念念不忘，必有回响！",
+      link: "https://www.liyp.cc",
+      avatar: "https://i.loli.net/2021/02/07/vcU5PjRu2wL1WMO.png"
+    }
+
+    - {
+      title: "筱易物语",
+      intro: "筱易的博客",
+      link: "https://backmountaindevil.github.io/#/",
+      avatar: "https://backmountaindevil.github.io/favicon.ico"
     }
 
   # 当成员头像加载失败时，替换为指定图片
@@ -978,44 +999,44 @@ static_prefix:
   internal_css: /css
   internal_img: /images
 
-  anchor: https://cdn.jsdelivr.net/npm/anchor-js@4/
+  anchor: https://cdn.dmnb.cf/npm/anchor-js@4/
 
-  github_markdown: https://cdn.jsdelivr.net/npm/github-markdown-css@4/
+  github_markdown: https://cdn.dmnb.cf/npm/github-markdown-css@4/
 
-  jquery: https://cdn.jsdelivr.net/npm/jquery@3/dist/
+  jquery: https://cdn.dmnb.cf/npm/jquery@3/dist/
 
-  bootstrap: https://cdn.jsdelivr.net/npm/bootstrap@4/dist/
+  bootstrap: https://cdn.dmnb.cf/npm/bootstrap@4/dist/
 
-  highlightjs: https://cdn.jsdelivr.net/npm/highlight.js@10/
+  highlightjs: https://cdn.dmnb.cf/npm/highlight.js@10/
 
-  prismjs: https://cdn.jsdelivr.net/npm/prismjs@1/
+  prismjs: https://cdn.dmnb.cf/npm/prismjs@1/
 
-  tocbot: https://cdn.jsdelivr.net/npm/tocbot@4/dist/
+  tocbot: https://cdn.dmnb.cf/npm/tocbot@4/dist/
 
-  typed: https://cdn.jsdelivr.net/npm/typed.js@2/lib/
+  typed: https://cdn.dmnb.cf/npm/typed.js@2/lib/
 
-  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/
+  fancybox: https://cdn.dmnb.cf/npm/@fancyapps/fancybox@3/dist/
 
-  nprogress: https://cdn.jsdelivr.net/npm/nprogress@0/
+  nprogress: https://cdn.dmnb.cf/npm/nprogress@0/
 
-  mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/
+  mathjax: https://cdn.dmnb.cf/npm/mathjax@3/es5/
 
-  katex: https://cdn.jsdelivr.net/npm/katex@0/dist/
+  katex: https://cdn.dmnb.cf/npm/katex@0/dist/
 
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
 
-  clipboard: https://cdn.jsdelivr.net/npm/clipboard@2/dist/
+  clipboard: https://cdn.dmnb.cf/npm/clipboard@2/dist/
 
-  mermaid: https://cdn.jsdelivr.net/npm/mermaid@8/dist/
+  mermaid: https://cdn.dmnb.cf/npm/mermaid@8/dist/
 
-  valine: https://cdn.jsdelivr.net/npm/valine@1/dist/
+  valine: https://cdn.dmnb.cf/npm/valine@1/dist/
 
-  waline: https://cdn.jsdelivr.net/npm/@waline/client@1/dist/
+  waline: https://cdn.dmnb.cf/npm/@waline/client@1/dist/
 
-  gitalk: https://cdn.jsdelivr.net/npm/gitalk@1/dist/
+  gitalk: https://cdn.dmnb.cf/npm/gitalk@1/dist/
 
-  disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/
+  disqusjs: https://cdn.dmnb.cf/npm/disqusjs@1/dist/
 
-  twikoo: https://cdn.jsdelivr.net/npm/twikoo@1/dist/
+  twikoo: https://cdn.dmnb.cf/npm/twikoo@1/dist/
 
   hint: /lib/hint/
