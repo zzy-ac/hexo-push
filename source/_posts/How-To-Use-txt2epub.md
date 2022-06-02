@@ -1,12 +1,13 @@
 ---
-title: How-To-Use-txt2epub
+title: txt2epub脚本使用教程
 date: 2022-06-02 13:22:32
 tags: python
 categories: script
 ---
 
 
-
+> 项目地址：
+> [https://github.com/zzy-ac/txt2epub](https://github.com/zzy-ac/txt2epub)
 # linux设备
 
 ```bash
