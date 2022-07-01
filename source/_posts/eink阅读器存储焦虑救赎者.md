@@ -65,15 +65,15 @@ categories: eink
 
 在koreader的`工具`页面找到`云储存`选项并进入：
 
-![image-20220511101702433](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101702433)
+![image-20220511101702433](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101702433.png)
 
 点击左上角的+号：
 
-![image-20220511101800154](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101800154)
+![image-20220511101800154](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101800154.png)
 
 在弹出窗口中选择`WebDAV`选项：
 
-![image-20220511101853401](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101853401)
+![image-20220511101853401](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101853401.png)
 
 服务器显示名称栏填入你想要显示的标签名如：Network novel；
 
@@ -83,13 +83,13 @@ WebDAV地址填入你的https://alist域名/dav/路径，如：https://alist.xxx
 
 点击添加按钮添加云盘，依次操作将你的各个目录添加到koreader。
 
-![image-20220511102625792](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511102625792)
+![image-20220511102625792](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511102625792.png)
 
 点击刚刚添加好的云盘
 
-![image-20220511102856888](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511102856888)
+![image-20220511102856888](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511102856888.png)
 
-![image-20220511103405124](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511103405124)
+![image-20220511103405124](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511103405124.png)
 
 
 # 结语
