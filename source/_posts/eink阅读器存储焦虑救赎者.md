@@ -45,7 +45,7 @@ categories: eink
 
 　　alist本身支持如下所示的多种云盘，挑选你自己觉得合适的挂载。（具体挂载流程操作请自行翻阅alist官方文档）
 
-![image-20220511095921873](https://zzy-ac1.coding.net/p/picbed/d/file/git/raw/master/e84f052f25d91cd50b2c15d2b4e4131557c52a91c5bdf6d13c302c38845afb74.png)
+![image-20220511095921873](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511095921873.png)
 
 *注：阿里云盘、天翼云盘、123云盘、和彩云、夸克网盘、都是在国内能比较方便获取的不限速的大容量网盘，其中阿里云新号完成一些任务后可以获得永久800G左右的空间和十余T的限时空间（一般是几年）；天翼云电信卡、宽带一般都有送数T空间的黄金或铂金会员帐号，也可以去淘宝买永久10T的帐号使用；123是个小企业的云盘，注册就给2t，下载不限速，不过不知道能活多久；和彩云是移动的，注册送1年的1t空间，活动也不少；夸克的话咸鱼可以低价买到88会员送的夸克网盘会员也很大。
 
@@ -65,15 +65,15 @@ categories: eink
 
 在koreader的`工具`页面找到`云储存`选项并进入：
 
-![image-20220511101702433](https://zzy-ac1.coding.net/p/picbed/d/file/git/raw/master/2afe1921e646de40f694b8946ee1dc2baba94aa813fbb5e28ce2616226e326d8.png)
+![image-20220511101702433](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101702433)
 
 点击左上角的+号：
 
-![image-20220511101800154](https://zzy-ac1.coding.net/p/picbed/d/file/git/raw/master/67d927825409b11cc9f882c8ab637926d7a904f1bb85104b3ccb7809569b6fa2.png)
+![image-20220511101800154](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101800154)
 
 在弹出窗口中选择`WebDAV`选项：
 
-![image-20220511101853401](https://zzy-ac1.coding.net/p/picbed/d/file/git/raw/master/4ff095dd9895c4a41dd21bbeead1647572b2fa5f77753dd4d21c63dbfdda2142.png)
+![image-20220511101853401](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101853401)
 
 服务器显示名称栏填入你想要显示的标签名如：Network novel；
 
@@ -83,14 +83,13 @@ WebDAV地址填入你的https://alist域名/dav/路径，如：https://alist.xxx
 
 点击添加按钮添加云盘，依次操作将你的各个目录添加到koreader。
 
-![image-20220511102625792](https://zzy-ac1.coding.net/p/picbed/d/file/git/raw/master/b07c55f3568766deeef45246d7801a9cd235dda1d7851ffa5a4243144077be3d.png)
+![image-20220511102625792](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511102625792)
 
 点击刚刚添加好的云盘
 
-![image-20220511102856888](https://zzy-ac1.coding.net/p/picbed/d/file/git/raw/master/72d06f3e0e29476cfb9a25bd633400692ed4927907bcf97162ee3d5ae58137d2.png)
+![image-20220511102856888](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511102856888)
 
-![image-20220511103405124](https://zzy-ac1.coding.net/p/picbed/d/file/git/raw/master/8dc5019fcdb06bb59778ba53137bf8e1d17d7b46ca850f1aa6313c3c0b96b612.jpg)
-
+![image-20220511103405124](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511103405124)
 
 
 # 结语
