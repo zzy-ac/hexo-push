@@ -1,5 +1,5 @@
 ---
-title: archlinux-katago-sabaki
+title: 在archlinux中使用sabaki运行围棋ai引擎katago
 date: 2022-08-11 16:27:34
 tags: katago
 keywords:
