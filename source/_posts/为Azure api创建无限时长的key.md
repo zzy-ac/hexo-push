@@ -28,7 +28,7 @@ Azure AD 地址：[https://portal.azure.com/](https://portal.azure.com/)
 ![Azure-5](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/hexo-plus-plus/Azure-5.webp)
 ## F12打开浏览器开发者模式模拟手机版页面
 
-![Azure-6](https://cdn.jsdelivr.net/gh/zzy-ac/My-Selves-Cloud@main/images/hexo-plus-plus/Azure-6.webp)
+![Azure-6](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/hexo-plus-plus/Azure-6.webp)
 
 ## 填入想要的key名称并选择自定义截止期限
 
