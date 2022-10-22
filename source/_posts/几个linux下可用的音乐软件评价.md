@@ -96,11 +96,11 @@ QQ音乐作为腾讯旗下众多音乐app中的扛把子，在版权上有着先
 
 Listen 1可以搜索和播放来自网易云音乐，QQ音乐，酷狗音乐，酷我音乐，Bilibili，咪咕音乐网站的歌曲，让你的曲库更全面。
 
-![platform](http://i.imgur.com/R6bTXkY.gif)
+![R6bTXkY](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/R6bTXkY.gif)
 
-还支持歌单功能，你可以方便的播放，收藏和创建自己的歌单。
+还支持歌单![Ae6ItmA](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/Ae6ItmA.png)功能，你可以方便的播放，收藏和创建自己的歌单。
 
-![platform](http://i.imgur.com/Ae6ItmA.png)
+
 
 ### 优势
 
