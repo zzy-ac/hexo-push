@@ -1,6 +1,6 @@
 ---
 title: 为Azure AD应用创建无限时长的key
-date: {{ date }}
+date: 2022-09-23 15:15:08
 tags: 网页部署 
 categories: 网页部署
 ---
