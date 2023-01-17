@@ -28,7 +28,7 @@ date: 2021-11-14 03:16:10
 ---
 ### [点墨云盘](https://alist.dmnb.cf/)
 ---
-### [点墨字体编辑器](https://zzy-ac.github.io/fonteditor)
+### [点墨字体编辑器](https://font.dmnb.cf/)
 
 ---
 ### [点墨markdown编辑器](https://zzy-ac.github.io/MarkdownOnline/)
