@@ -5,19 +5,18 @@ tags: win-to-go
 categories: 系统安装
 ---
 
-# win to go安装记录
 
-## 起因
+# 起因
 
 近日因更换电脑的缘故，从旧笔记本上拆下来一块旧的sata口固态，正好前段时间还买了个sata转usb3.0的硬盘盒。于是就决定把windows从我的电脑上彻底删除，在移动硬盘上整个win to go，有需要时临时用用就好。
 
-## 方案选择
+# 方案选择
 
 做win to go的方法有很多，最基本的是直接把系统装进这块硬盘。但是私以为这样装的系统还是没有跟硬盘隔离开来，平时用这块硬盘还是会有些不爽。所以我选择采用ventoy方案。
 
-## 步骤
+# 步骤
 
-### 1、Ventoy的安装于配置
+## 1、Ventoy的安装于配置
 
 * 根据你的系统，从ventoy官网下载最新的ventoy安装程序[https://ventoy.net/cn/download.html](https://ventoy.net/cn/download.html)
 
@@ -27,7 +26,7 @@ categories: 系统安装
 
 * 把ventoy分区格式化为ntfs
 
-### 2、安装win10
+## 2、安装win10
 
 * 用虚拟机程序（qemu、vm、vbox...都可以）把win10的镜像安装到vhd格式的虚拟硬盘中
 
@@ -43,7 +42,7 @@ https://ventoy.lanzoub.com/b01dlxuaj (蓝奏云，密码: 7my4)
 
 * 把装有windows的vhd文件拷贝到ventoy分区内你用于存放ISO的文件夹（没配置的话直接扔根目录也行）
 
-### 3、测试与验收
+## 3、测试与验收
 经过上面步骤之后你已经可以重启后从ventoy进入你的win to go系统了，可以试试各方面是否正常运行。
 
 至此就收获了一个装有win to go,同时还可以加载各种系统镜像以及linux to go的移动硬盘。
