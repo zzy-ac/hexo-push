@@ -1,5 +1,5 @@
 ---
-title: win-to-go安装记录
+title: win to go安装记录
 date: 2023-01-29 10:56:07
 tags: win-to-go
 categories: 系统安装
