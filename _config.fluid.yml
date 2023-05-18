@@ -925,29 +925,16 @@ links:
       title: "采唐的垃圾堆",
       intro: "垃圾也有家，欢迎回来！",
       link: "http://tsaitang.com",
-      avatar: "https://voce.tsaitang.com/api/resource/organization/logo"
-    }
-    - {
-      title: "漉鲸的Blog",
-      intro: "由Typecho驱动的个人博客。",
-      link: "https://blog.lujing0.com/",
-      avatar: "https://blog.lujing0.com/favicon.ico"
+      avatar: "https://www.tsaitang.com/api/notes/iH98tXi0Xib8/download"
     }
 
     - {
       title: "Sakura的随笔记录",
       intro: "Sakura的随笔",
       link: "https://blog.sakunia.tk/",
-      avatar: "https://data.liyp.cc/images/sakunia-favicon.jpg"
+      avatar: "https://git.sakunia.tk/Sakura1943/imgs/releases/download/imgs/favicon.jpg"
     }
 
-    - {
-      title: "Tsingkwai",
-      intro: "Tsingkwai——葵姐姐",
-      link: "https://tsingkwai.ruzhtw.top/",
-      avatar: "https://b23.tv/mQNf8iq"
-    }
-    
     - {
       title: "心夢博客",
       intro: "念念不忘，必有回响！",
