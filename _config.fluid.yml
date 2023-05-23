@@ -313,7 +313,20 @@ navbar:
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
-    - { key: "other", link: "/other/", icon: "iconfont icon-books" }
+    - {
+        key: 'other',
+        icon: 'iconfont icon-books',
+        submenu: [
+          { key: '点墨短链', link: 'https://dmnb.cf/' },
+          { key: '点墨图床', link: 'https://picx.dmnb.cf/' },
+          { key: '点墨cloudreve', link: 'https://cloud.dmnb.cf/' }
+          { key: '点墨网盘(om)', link: 'https://pan.zzy-ac.top/' }
+          { key: '点墨云盘(Alist)', link: 'https://alist.dmnb.cf/' }
+          { key: '点墨字体编辑器', link: 'https://font.dmnb.cf/' }
+          { key: '点墨md编辑器', link: 'https://zzy-ac.github.io/MarkdownOnline/' }
+          { key: '点墨的GitHub文件加速', link: 'https://gh.dmnb.cf/' }
+        ]
+    }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
