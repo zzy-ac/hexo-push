@@ -323,7 +323,7 @@ navbar:
           { key: '点墨网盘(om)', link: 'https://pan.zzy-ac.top/' },
           { key: '点墨云盘(Alist)', link: 'https://alist.dmnb.cf/' },
           { key: '点墨字体编辑器', link: 'https://font.dmnb.cf/' },
-          { key: '点墨md编辑器', link: 'https://zzy-ac.github.io/MarkdownOnline/' },
+          { key: '点墨md编辑器', link: 'https://md.dmnb.cf' },
           { key: '点墨的GitHub文件加速', link: 'https://gh.dmnb.cf/' }
         ]
     }
