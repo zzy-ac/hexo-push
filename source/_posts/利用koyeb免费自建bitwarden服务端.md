@@ -6,7 +6,7 @@ date: '2023-03-21 11:52:34'
 tags:
 - 网页部署
 title: 利用koyeb免费自建bitwarden服务端
-updated: Fri, 07 Apr 2023 04:53:22 GMT
+updated: 2023-11-19T10:44:47.294+8:0
 ---
 # 起因
 
@@ -29,11 +29,11 @@ OTP和FreeOTP以及国产程序“神锁离线版”等等,可以自己选择合
 
 ![image-20230321123534246](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/03/21/image-20230321123534246.png)
 
-接着,点击`create app +`来创建应用,并选择docker选项
+接着,点击 `create app +`来创建应用,并选择docker选项
 
 ![image-20230321123737038](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/03/21/image-20230321123737038.png)
 
-在images栏填入`vaultwarden/server`,点击`next`、`Advanced`、将端口从8000修改为80
+在images栏填入 `vaultwarden/server`,点击 `next`、`Advanced`、将端口从8000修改为80
 
 ![image-20230321124112083](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/03/21/image-20230321124112083.png)
 
@@ -51,7 +51,7 @@ OTP和FreeOTP以及国产程序“神锁离线版”等等,可以自己选择合
 
 ![https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_3baed74f62a0cde5b46d4f1547b1cccc.png](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_3baed74f62a0cde5b46d4f1547b1cccc.png)
 
-之后在新页面点击`马上建立你的免费MySQL账号 »`按钮
+之后在新页面点击 `马上建立你的免费MySQL账号 »`按钮
 
 ![https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_511f1f647fa585bf245aca3f1389e65e.png](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_511f1f647fa585bf245aca3f1389e65e.png)
 
@@ -59,7 +59,34 @@ OTP和FreeOTP以及国产程序“神锁离线版”等等,可以自己选择合
 
 ![https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_3e2d17bf5f6c81c90564b470c9179c51.png](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_3e2d17bf5f6c81c90564b470c9179c51.png)
 
-至此你已经申请到了你的数据在线数据库,由于[vaultwarden](https://github.com/dani-garcia/vaultwarden)项目的设置,你需要将这些信息重新排列成mysql数据库的链接形式来方便docker容器将其使用,即:
+---
+
+2023.11.19更新
+
+经过反馈和确认，现在新建的数据库直接被koyeb中的vaultwarden调用会导致表创建失败暂时没去研究原因，偷个懒直接把创建好的空白数据库放上来。
+
+使用步骤打开db4free自带的phpMyAdmin
+![https://s2.loli.net/2023/11/19/RamsK8PjCIVFrDy.png](https://s2.loli.net/2023/11/19/RamsK8PjCIVFrDy.png)
+
+输入数据库的帐号密码
+
+![https://s2.loli.net/2023/11/19/QMZGHS5sNjr4bRq.png](https://s2.loli.net/2023/11/19/QMZGHS5sNjr4bRq.png)
+
+点击你的数据库名称
+
+![https://s2.loli.net/2023/11/19/WoxQzBlm5p7jPJt.png](https://s2.loli.net/2023/11/19/WoxQzBlm5p7jPJt.png)
+
+点击导入
+
+![https://s2.loli.net/2023/11/19/Zh52a6P9dLsmtCK.png](https://s2.loli.net/2023/11/19/Zh52a6P9dLsmtCK.png)
+
+选择已创建好的[空白数据库](https://gh.dmnb.cf/https://raw.githubusercontent.com/zzy-ac/My-Selves-Cloud/main/vaultwarden.sql)并导入：
+
+![https://s2.loli.net/2023/11/19/7ZQxUjAd4f58JnS.png](https://s2.loli.net/2023/11/19/7ZQxUjAd4f58JnS.png)
+
+---
+
+至此你已经配置好了你的在线数据库,由于[vaultwarden](https://github.com/dani-garcia/vaultwarden)项目的设置,你需要将数据库的用户名、密码、数据库名重新排列成mysql数据库的链接形式来方便docker容器将其使用,即:
 
 ```html
 mysql://[username]:[password]@db4free.net:3306/[dbname]
@@ -67,26 +94,24 @@ mysql://[username]:[password]@db4free.net:3306/[dbname]
 
 ## 添加环境变量
 
-接下来你只需要回到koyeb容器的创建页面,如果已经创建了的话,你只需要进入该项目的设置页面,找到`Environment variables`在其下创建如图的两个环境变量,其中`DATABASE_URL`的值为上面排列好的`mysql://[username]:[password]@db4free.net:3306/[dbname]`而`RUST_BACKTRACE`的值则为1。
+接下来你只需要回到koyeb容器的创建页面,如果已经创建了的话,你只需要进入该项目的设置页面,找到 `Environment variables`在其下创建如图的两个环境变量,其中 `DATABASE_URL`的值为上面排列好的 `mysql://[username]:[password]@db4free.net:3306/[dbname]`而 `RUST_BACKTRACE`的值则为1。
 ![https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_c762ffb85dfaaa764e380b362b017d84.png](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_c762ffb85dfaaa764e380b362b017d84.png)
 
 之后的步骤没有区别,照做就行。
 
 ---
 
-
-
 修改你的应用名称,也就是你koyeb默认生成的网站的前缀
 
 ![image-20230321124200568](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/03/21/image-20230321124200568.png)
 
-点击`deploy`,等待程序状态变为healthy,即可正常使用
+点击 `deploy`,等待程序状态变为healthy,即可正常使用
 
 ![image-20230321124344526](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/03/21/image-20230321124344526.png)
 
 # 使用
 
-打开bitwarden(手机、插件、pc客户端都行),在添加账户时点右上角设置,将你的获取的域名填入`服务器URL`选项中,保存即可。
+打开bitwarden(手机、插件、pc客户端都行),在添加账户时点右上角设置,将你的获取的域名填入 `服务器URL`选项中,保存即可。
 
 自此你就可以使用完全自建,不用担心泄露问题的全平台密码管理器了,不管是安卓手机还是iphon亦或者谷歌内核的各个浏览器以及firefox浏览器等,均可直接自动填充密码。并且由于密码全都加密保存在你自建的koyeb容器中,也可以不用担心密码泄露问题。
 
