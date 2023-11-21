@@ -1,12 +1,16 @@
 ---
+abbrlink: ''
+categories:
+- bitwarden
+date: '2023-11-09T19:18:55+08:00'
+tags:
+- 网页部署
 title: 定时备份mysql/mariadb数据库并上传至tgbot
-date: 2023-11-09 19:18:55
-tags: 网页部署
-categories: bitwarden
+updated: 2023-11-21T10:29:2.502+8:0
 ---
-
 # 前情提要：
-前文[利用koyeb免费自建bitwarden服务端](https://blog.zzy-ac.top/2023/03/21/li-yong-koyeb-mian-fei-zi-jian-bitwarden-fu-wu-duan/)可知博主之前已经将bitwarden自建的vaultwarden服务端部署在koyeb,并利用db4free提供的免费数据库实现了数据的永久存储。虽说这样基本不会有什么问题了，但db4free毕竟是别人提供的在线数据库，为了以防万一其跑路或者删数据库，今天特地花时间构思了数据库备份的方法。
+
+前文[利用koyeb免费自建bitwarden服务端](https://blog.m-l.cc/2023/03/21/li-yong-koyeb-mian-fei-zi-jian-bitwarden-fu-wu-duan/)可知博主之前已经将bitwarden自建的vaultwarden服务端部署在koyeb,并利用db4free提供的免费数据库实现了数据的永久存储。虽说这样基本不会有什么问题了，但db4free毕竟是别人提供的在线数据库，为了以防万一其跑路或者删数据库，今天特地花时间构思了数据库备份的方法。
 本文分为两节：
 
 * 基本构思
@@ -26,8 +30,6 @@ mysqldump -h <hostname> -u <username> -p<password> <database_name> > backup_`dat
 #<database_name>：数据库的名称
 ```
 
-
-
 依次填入对应内容后即可备份你的数据库，为了方便记录和存档，这里在生成的备份文件的文件名处添加了`date +%F`来生成带日期的文件名。
 
 ### 上传至tgbot
@@ -42,8 +44,6 @@ curl -F document=@"./backup_`date +%F`.sql" 'https://api.telegram.org/bot<bot_to
 ```
 
 使用上述命令就可以简单的将你的数据库备份文件上传到你的tgbot处，从而实现云端存储。
-
-
 
 ## 定时推送
 
