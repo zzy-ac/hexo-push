@@ -6,7 +6,7 @@ date: '2023-11-09T19:18:55+08:00'
 tags:
 - 网页部署
 title: 定时备份mysql/mariadb数据库并上传至tgbot
-updated: 2023-11-21T10:29:2.502+8:0
+updated: 2023-12-4T16:46:42.324+8:0
 ---
 # 前情提要：
 
@@ -78,7 +78,7 @@ on:
 jobs:
    Task:
     runs-on: ubuntu-latest
-    if: github.event.repository.owner.id == github.event.sender.id  # 自己点的 start
+#    if: github.event.repository.owner.id == github.event.sender.id  # 自己点的 start
     steps:
     - name: Checkout
       uses: actions/checkout@master
