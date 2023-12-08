@@ -7,7 +7,7 @@ keywords: null
 tags:
 - 网页部署
 title: 通过cf origin rules端口反代实现家宽建站
-updated: 2023-12-1T11:11:36.119+8:0
+updated: 2023-12-8T17:10:41.309+8:0
 ---
 # 起因
 
@@ -24,11 +24,11 @@ updated: 2023-12-1T11:11:36.119+8:0
 
 # 原理解析
 
-要实现上述功能原理非常简单，首先我有一个工具域名`tool.example.com`ddns解析到了我的家宽。
+要实现上述功能原理非常简单，首先我有一个工具域名 `tool.example.com`ddns解析到了我的家宽。
 
-然后将需要用到的域名如`aaa.example.com`cname到工具域名`tool.example.com`并打开cf的cdn按钮。
+然后将需要用到的域名如 `aaa.example.com`cname到工具域名 `tool.example.com`并打开cf的cdn按钮。
 
-最后创建一条origin rules规则，将`aaa.example.com`重写到置顶端口。如此即可实现不带端口直接通过域名访问搭建在家宽的站点。
+最后创建一条origin rules规则，将 `aaa.example.com`重写到指定端口。如此即可实现不带端口直接通过域名访问搭建在家宽的站点。
 
 不过cf的免费服务只能创建10个origin rules规则。
 
@@ -76,15 +76,15 @@ http://目标服务器 IP 地址:目标端口/安全入口
 
 ![https://s2.loli.net/2023/12/01/dN4rvnFItqfX1C8.png](https://s2.loli.net/2023/12/01/dN4rvnFItqfX1C8.png)
 
-#### 4、在ddns脚本中将`tool.example.com`工具域名解析到你的家宽ip上。
+#### 4、在ddns脚本中将 `tool.example.com`工具域名解析到你的家宽ip上。
 
 ![https://s2.loli.net/2023/12/01/dTGQVApgIJPFO5X.png](https://s2.loli.net/2023/12/01/dTGQVApgIJPFO5X.png)
 
-#### 5、1p创建一个网站，将域名设为`aaa.example.com`
+#### 5、1p创建一个网站，将域名设为 `aaa.example.com`
 
 ![https://s2.loli.net/2023/12/01/kRNFnKEpDtdCis9.png](https://s2.loli.net/2023/12/01/kRNFnKEpDtdCis9.png)
 
-#### 6、在cloudflare创建一个cname记录，将`aaa.example.com`解析到`tool.example.com`上，并开启cf cdn。
+#### 6、在cloudflare创建一个cname记录，将 `aaa.example.com`解析到 `tool.example.com`上，并开启cf cdn。
 
 ![https://s2.loli.net/2023/12/01/d4wz9HBtAWmoQYC.png](https://s2.loli.net/2023/12/01/d4wz9HBtAWmoQYC.png)
 
@@ -99,6 +99,5 @@ http://目标服务器 IP 地址:目标端口/安全入口
 优势：可能省了点事？不需要使用额外的webserver啥的
 
 不足：站点不多还好，站点多了管理麻烦，而且10条规则可能不够用。
-
 
 # 以上，完毕
