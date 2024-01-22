@@ -34,7 +34,7 @@ jobs:
           git config --global user.email "1304024859@qq.com"
           git config --global user.name "zzy-ac"
           npm install hexo-cli yarn -g
-          yarn
+          yarn install
           #ls -a
           #sed -i "s/\"'/&,\n  '\&#123;': '{',\n  '\&#125;': '}'/" ./node_modules/hexo-prism-plugin/src/index.js
 
