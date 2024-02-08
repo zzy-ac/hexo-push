@@ -961,6 +961,12 @@ links:
       link: "https://backmountaindevil.github.io/#/",
       avatar: "https://backmountaindevil.github.io/favicon.ico"
     }  
+    - {
+      title: "浪海导航",
+      intro: "浪海导航 ~ 收录各种类型的博客",
+      link: "https://www.langhai.net/",
+      avatar: "https://www.langhai.net/assets/images/langhai-logo.png"
+    }  
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
