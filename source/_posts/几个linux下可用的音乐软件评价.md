@@ -13,13 +13,13 @@ categories: music
 
 QQ音乐作为腾讯旗下众多音乐app中的扛把子，在版权上有着先天的优势，同时随着近年来的不断努力，腾讯的QQ音乐也终于凑齐了win、mac、linux、iphone、android全平台的官方客户端。
 
-![image-20221022193629599](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022193629599.png)
+![image-20221022193629599](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022193629599.png)
 
 其中linux客户端是基于electron架构运行的，目前已可以正常的流畅运行于全部的linux发行版中：
 
-![image-20221022193957231](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022193957231.png)
+![image-20221022193957231](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022193957231.png)
 
-![image-20221022194010776](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022194010776.png)
+![image-20221022194010776](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022194010776.png)
 
 ### 优势
 
@@ -39,9 +39,9 @@ QQ音乐作为腾讯旗下众多音乐app中的扛把子，在版权上有着先
 
 与QQ音乐一样，网易云音乐也推出了全平台的客户端，并且均实现了完善的功能体系：
 
-![image-20221022194939491](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022194939491.png)
+![image-20221022194939491](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022194939491.png)
 
-![image-20221022195041144](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022195041144.png)
+![image-20221022195041144](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022195041144.png)
 
 ### 优势
 
@@ -54,7 +54,7 @@ QQ音乐作为腾讯旗下众多音乐app中的扛把子，在版权上有着先
 
 * 随着linux版本的更新，和软件的长久停止维护以及网易云自身api的变动，目前发现音乐栏的个性推荐页面已经无法访问（至少在archlinux上是这样）
 
-![image-20221022200440403](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022200440403.png)
+![image-20221022200440403](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022200440403.png)
 
 * 与QQ音乐相比曲库不那么全面
 * 界面比较陈旧，与现代软件存在一定的脱节（不过又不是不能用）
@@ -72,13 +72,13 @@ QQ音乐作为腾讯旗下众多音乐app中的扛把子，在版权上有着先
 
 落雪音乐集合了QQ音乐、网易云音乐、酷狗、酷我、咪咕五大国产音乐平台的api。
 
-![image-20221022201533992](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022201533992.png)
+![image-20221022201533992](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022201533992.png)
 
-![image-20221022201601777](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022201601777.png)
+![image-20221022201601777](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022201601777.png)
 
-![image-20221022201959981](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022201959981.png)
+![image-20221022201959981](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022201959981.png)
 
-![image-20221022202113541](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022202113541.png)
+![image-20221022202113541](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022202113541.png)
 
 ### 优势
 
@@ -96,9 +96,9 @@ QQ音乐作为腾讯旗下众多音乐app中的扛把子，在版权上有着先
 
 Listen 1可以搜索和播放来自网易云音乐，QQ音乐，酷狗音乐，酷我音乐，Bilibili，咪咕音乐网站的歌曲，让你的曲库更全面。
 
-![R6bTXkY](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/R6bTXkY.gif)
+![R6bTXkY](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/R6bTXkY.gif)
 
-还支持歌单![Ae6ItmA](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/Ae6ItmA.png)功能，你可以方便的播放，收藏和创建自己的歌单。
+还支持歌单![Ae6ItmA](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/Ae6ItmA.png)功能，你可以方便的播放，收藏和创建自己的歌单。
 
 
 
@@ -121,11 +121,11 @@ Listen 1可以搜索和播放来自网易云音乐，QQ音乐，酷狗音乐，�
 
 一款高颜值的第三方网易云播放器
 
-![image-20221022203124553](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022203124553.png)
+![image-20221022203124553](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022203124553.png)
 
 拥有如下图所示的超多特性：
 
-![image-20221022203225962](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022203225962.png)
+![image-20221022203225962](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/10/22/image-20221022203225962.png)
 
 支持linux、mac以及windows系统，可以部署在vercel或vps搭建网页版程序。
 

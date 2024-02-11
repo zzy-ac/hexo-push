@@ -25,7 +25,7 @@ categories: Android
 
 现在官网已经收回了自助获过程取解锁文件的权限，如今解锁平板需要自己发邮件给hucy4@lenovo.com，写明详细需求包括解锁用途、设备序列号等，然后等待人工回复提供解锁文件。
 
-![image-20221127135505818](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127135505818.png)
+![image-20221127135505818](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127135505818.png)
 
 获取解锁文件后，将解压出来的img文件重命名为sn.img后放入`联想解锁回锁工具`目录，运行`联想解锁.bat`脚本。
 
@@ -75,27 +75,27 @@ categories: Android
 
 1. 手机关机进入第三方twrp,点重启，重启至fastbootd，，，大概这样子
 
-![image-20221127142332627](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142332627.png)
+![image-20221127142332627](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142332627.png)
 
 2. 点开一键刷入MIUI13.bat(一共三个bat文件，请点开对应机型的bat文件)
 
-![image-20221127142343138](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142343138.png)
+![image-20221127142343138](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142343138.png)
 
 
 
 3. 按着bat上的提示按回车键，完成一个按一下。如果没反应请检查驱动
 
-   ![image-20221127142357068](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142357068.png)
+   ![image-20221127142357068](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142357068.png)
 
-   ![image-20221127142424793](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142424793.png)
+   ![image-20221127142424793](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142424793.png)
 
-   ![image-20221127142431348](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142431348.png)
+   ![image-20221127142431348](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142431348.png)
 
-   ![image-20221127142437041](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142437041.png)
+   ![image-20221127142437041](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142437041.png)
 
-   ![image-20221127142443323](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142443323.png)
+   ![image-20221127142443323](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142443323.png)
 
-   ![image-20221127142451106](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142451106.png)
+   ![image-20221127142451106](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142451106.png)
 
 4. bat执行完成后手机将自动进入twrp
 过程

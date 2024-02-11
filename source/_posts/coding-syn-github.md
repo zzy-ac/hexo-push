@@ -14,11 +14,11 @@ Coding作为与Gitee齐名的两大国内git服务商，相比于小家子气的
 
 在Gitee的使用中总存在着各种各样的严苛限制，仓库的大小、对实名认证的需要、pages的手动部署，但最为让人无语的还是它对于超过1M的文件都需要登陆后才能下载的限制，这直接导致了无法在不登陆的情况下引用Gitee仓库的图片直链到自己的网站中来。
 
-![image-20220306085214473](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306085214473.png)
+![image-20220306085214473](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306085214473.png)
 
 因此，几番辗转之下，博主了解到了Coding这样一个更加开放的国内git平台，在同样提供git服务的前提下，Coding比Gitee减少了许多的限制，其中最重要的就是它和Github一样可以直接提供仓库文件的直链，而不需要所谓的超过1M就得登陆。这让Coding的可实用性得到了巨大的保障。
 
-![image-20220306085718811](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306085718811.png)
+![image-20220306085718811](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306085718811.png)
 
 # 从Github同步仓库到Coding
 
@@ -30,23 +30,23 @@ Coding作为与Gitee齐名的两大国内git服务商，相比于小家子气的
 
 * 登陆Coding进入`项目`版块
 
-![image-20220306090630641](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306090630641.png)
+![image-20220306090630641](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306090630641.png)
 
 * 点击右上角创建项目旁的···
 
-  ![image-20220306091422419](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306091422419.png)并选择导入项目，在导入页面选中Github旁的开始导入按钮。
+  ![image-20220306091422419](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306091422419.png)并选择导入项目，在导入页面选中Github旁的开始导入按钮。
 
-  ![image-20220306091657284](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306091657284.png)
+  ![image-20220306091657284](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306091657284.png)
 
 * 在这里你可以选择输入Github用户名来获取想要导入的仓库或者直接输入Github仓库的git地址来进行导入。任选其一开始导入你所需要的仓库。
 
-  ![image-20220306091837496](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306091837496.png)
+  ![image-20220306091837496](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306091837496.png)
 
 * 稍等一会儿后我们可以看到仓库已经成功的导入Coding了，进入导入的项目中打开我们导入的这一仓库。
 
-  ![image-20220306092153675](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306092153675.png)
+  ![image-20220306092153675](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306092153675.png)
 
-![image-20220306092208117](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306092208117.png)
+![image-20220306092208117](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/06/image-20220306092208117.png)
 
 * 在仓库的设置中选择`同步信息`标签，并勾选开启自动同步并设置同步时间。
 

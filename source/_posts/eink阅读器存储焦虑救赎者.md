@@ -45,7 +45,7 @@ categories: eink
 
 　　alist本身支持如下所示的多种云盘，挑选你自己觉得合适的挂载。（具体挂载流程操作请自行翻阅alist官方文档）
 
-![image-20220511095921873](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511095921873.png)
+![image-20220511095921873](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511095921873.png)
 
 *注：阿里云盘、天翼云盘、123云盘、和彩云、夸克网盘、都是在国内能比较方便获取的不限速的大容量网盘，其中阿里云新号完成一些任务后可以获得永久800G左右的空间和十余T的限时空间（一般是几年）；天翼云电信卡、宽带一般都有送数T空间的黄金或铂金会员帐号，也可以去淘宝买永久10T的帐号使用；123是个小企业的云盘，注册就给2t，下载不限速，不过不知道能活多久；和彩云是移动的，注册送1年的1t空间，活动也不少；夸克的话咸鱼可以低价买到88会员送的夸克网盘会员也很大。
 
@@ -65,15 +65,15 @@ categories: eink
 
 在koreader的`工具`页面找到`云储存`选项并进入：
 
-![image-20220511101702433](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101702433.png)
+![image-20220511101702433](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101702433.png)
 
 点击左上角的+号：
 
-![image-20220511101800154](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101800154.png)
+![image-20220511101800154](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101800154.png)
 
 在弹出窗口中选择`WebDAV`选项：
 
-![image-20220511101853401](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101853401.png)
+![image-20220511101853401](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511101853401.png)
 
 服务器显示名称栏填入你想要显示的标签名如：Network novel；
 
@@ -83,13 +83,13 @@ WebDAV地址填入你的https://alist域名/dav/路径，如：https://alist.xxx
 
 点击添加按钮添加云盘，依次操作将你的各个目录添加到koreader。
 
-![image-20220511102625792](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511102625792.png)
+![image-20220511102625792](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511102625792.png)
 
 点击刚刚添加好的云盘
 
-![image-20220511102856888](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511102856888.png)
+![image-20220511102856888](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511102856888.png)
 
-![image-20220511103405124](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511103405124.png)
+![image-20220511103405124](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/07/01/image-20220511103405124.png)
 
 
 # 结语

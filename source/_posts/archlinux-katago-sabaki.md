@@ -47,7 +47,7 @@ paru -S sabaki
 [zzy-ac]
 SigLevel=Never
 Server = https://github.com/zzy-ac/repo/releases/download/x86_64/
-Server = https://gh.dmnb.cf/https://github.com/zzy-ac/repo/releases/download/x86_64/
+Server = https://gh.m-l.cc/https://github.com/zzy-ac/repo/releases/download/x86_64/
 
 # 更新源
 
@@ -70,11 +70,11 @@ sudo pacman -S cudnn
 
 之后需要下载Katago训练形成的权重文件：https://katagotraining.org/networks/，如下图：
 
-![image-20220811165920792](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/08/11/image-20220811165920792.png)
+![image-20220811165920792](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/08/11/image-20220811165920792.png)
 
 之后，解压缩katago的压缩包，将文件名为kata1-b60c320-s6372316160-d2964581281.bin.gz(kata1-后面的字符可能随版本不同有所不同，请自行辨别)放入文件夹下。
 
-![image-20220811171236578](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/08/11/image-20220811171236578.png)在终端打开该文件夹，执行如下指令：
+![image-20220811171236578](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/08/11/image-20220811171236578.png)在终端打开该文件夹，执行如下指令：
 
 ```sh
 ./katago genconfig -model kata1-b60c320-s6372316160-d2964581281.bin.gz -output sabaki.cfg
@@ -82,7 +82,7 @@ sudo pacman -S cudnn
 
 之后会问你如下一些问题，你可以照着我的来，也可以根据自己的情况选择性的自定义配置或使用默认配置
 
-![image-20220811171149406](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/08/11/image-20220811171149406.png)
+![image-20220811171149406](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/08/11/image-20220811171149406.png)
 
 此后，katago将会根据训练形成的权重文件生成文件名为sabaki.cfg的配置文件。
 
@@ -95,13 +95,13 @@ sudo pacman -S cudnn
 1. 打开sabaki
 2. 点击下图图标，并选择管理引擎：
 
-![image-20220811171622719](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/08/11/image-20220811171622719.png)
+![image-20220811171622719](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/08/11/image-20220811171622719.png)
 
 3. 新增配置如下图
-![image-20220811171713071](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/08/11/image-20220811171713071.png)
+![image-20220811171713071](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/08/11/image-20220811171713071.png)
 
 ## 完成
 
 之后你就可以自由的在Sabaki中使用Katago引擎进行围棋训练了。
 
-![image-20220811172125906](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2022/08/11/image-20220811172125906.png)
+![image-20220811172125906](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/08/11/image-20220811172125906.png)

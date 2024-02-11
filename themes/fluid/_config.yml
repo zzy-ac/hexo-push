@@ -735,7 +735,7 @@ waline:
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick']
   lang: 'zh-CN'
-  emoji: ['http://cdn.dmnb.cf/gh/walinejs/emojis/weibo']
+  emoji: ['http://cdn.m-l.cc/gh/walinejs/emojis/weibo']
   dark: 'html[data-user-color-scheme="dark"]'
   avatar: 'retro'
   avatarCDN: 'https://seccdn.libravatar.org/avatar/'
@@ -999,44 +999,44 @@ static_prefix:
   internal_css: /css
   internal_img: /images
 
-  anchor: https://cdn.dmnb.cf/npm/anchor-js@4/
+  anchor: https://cdn.m-l.cc/npm/anchor-js@4/
 
-  github_markdown: https://cdn.dmnb.cf/npm/github-markdown-css@4/
+  github_markdown: https://cdn.m-l.cc/npm/github-markdown-css@4/
 
-  jquery: https://cdn.dmnb.cf/npm/jquery@3/dist/
+  jquery: https://cdn.m-l.cc/npm/jquery@3/dist/
 
-  bootstrap: https://cdn.dmnb.cf/npm/bootstrap@4/dist/
+  bootstrap: https://cdn.m-l.cc/npm/bootstrap@4/dist/
 
-  highlightjs: https://cdn.dmnb.cf/npm/highlight.js@10/
+  highlightjs: https://cdn.m-l.cc/npm/highlight.js@10/
 
-  prismjs: https://cdn.dmnb.cf/npm/prismjs@1/
+  prismjs: https://cdn.m-l.cc/npm/prismjs@1/
 
-  tocbot: https://cdn.dmnb.cf/npm/tocbot@4/dist/
+  tocbot: https://cdn.m-l.cc/npm/tocbot@4/dist/
 
-  typed: https://cdn.dmnb.cf/npm/typed.js@2/lib/
+  typed: https://cdn.m-l.cc/npm/typed.js@2/lib/
 
-  fancybox: https://cdn.dmnb.cf/npm/@fancyapps/fancybox@3/dist/
+  fancybox: https://cdn.m-l.cc/npm/@fancyapps/fancybox@3/dist/
 
-  nprogress: https://cdn.dmnb.cf/npm/nprogress@0/
+  nprogress: https://cdn.m-l.cc/npm/nprogress@0/
 
-  mathjax: https://cdn.dmnb.cf/npm/mathjax@3/es5/
+  mathjax: https://cdn.m-l.cc/npm/mathjax@3/es5/
 
-  katex: https://cdn.dmnb.cf/npm/katex@0/dist/
+  katex: https://cdn.m-l.cc/npm/katex@0/dist/
 
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
 
-  clipboard: https://cdn.dmnb.cf/npm/clipboard@2/dist/
+  clipboard: https://cdn.m-l.cc/npm/clipboard@2/dist/
 
-  mermaid: https://cdn.dmnb.cf/npm/mermaid@8/dist/
+  mermaid: https://cdn.m-l.cc/npm/mermaid@8/dist/
 
-  valine: https://cdn.dmnb.cf/npm/valine@1/dist/
+  valine: https://cdn.m-l.cc/npm/valine@1/dist/
 
-  waline: https://cdn.dmnb.cf/npm/@waline/client@1/dist/
+  waline: https://cdn.m-l.cc/npm/@waline/client@1/dist/
 
-  gitalk: https://cdn.dmnb.cf/npm/gitalk@1/dist/
+  gitalk: https://cdn.m-l.cc/npm/gitalk@1/dist/
 
-  disqusjs: https://cdn.dmnb.cf/npm/disqusjs@1/dist/
+  disqusjs: https://cdn.m-l.cc/npm/disqusjs@1/dist/
 
-  twikoo: https://cdn.dmnb.cf/npm/twikoo@1/dist/
+  twikoo: https://cdn.m-l.cc/npm/twikoo@1/dist/
 
   hint: /lib/hint/

@@ -50,9 +50,9 @@ updated: 2023-7-25T1:13:26.527+8:0
 
 成功拆解机顶盒并找到了需要短接的焊点。第一天的瞎折腾到此结束，明天救砖回来再继续弄吧。
 
-![image-20230724211329657](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/24/image-20230724211329657.png)
+![image-20230724211329657](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/24/image-20230724211329657.png)
 
-![image-20230724211537108](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/24/image-20230724211537108.png)
+![image-20230724211537108](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/24/image-20230724211537108.png)
 
 ## DAY ~~2~~ 1.5
 
@@ -62,7 +62,7 @@ updated: 2023-7-25T1:13:26.527+8:0
 
 直接短接、刷入救砖包！
 
-![捕获](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/捕获.PNG)
+![捕获](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/捕获.PNG)
 
 等进度条走完后拔掉数据线，关闭电源不再短接，正常开机进入安卓！
 
@@ -77,31 +77,31 @@ updated: 2023-7-25T1:13:26.527+8:0
 直接打开开心盒子输入机顶盒ip（进路由器查，或者连上hdmi在屏幕里看。
 adb连接上机顶盒！
 
-![捕获-1](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/捕获-1.PNG)
+![捕获-1](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/捕获-1.PNG)
 
 点击调试，点击从U盘/SD卡开启，并在点击后迅速将U盘插入！
 
-![捕获-3](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/捕获-3.PNG)
+![捕获-3](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/捕获-3.PNG)
 
 稍等片刻后，在路由器上确定armbian的ip,并ssh进入u盘系统。
 
 首次进入需要修改root用户密码，创建普通用户，确立时区和语言等：
 
-![捕获-4](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/捕获-4.png)
+![捕获-4](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/捕获-4.png)
 
 然后使用armbian-install -m no开始将U盘系统写入机顶盒！
 
-![捕获-6](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/捕获-6.png)
+![捕获-6](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/捕获-6.png)
 
 这里我用的cm311-1a-yst版本所以直接选择305,并使用习惯的ext4文件系统，选择1。
 
 稍等片刻后没有报错并按照提示poweroff关机即可。
 
-![捕获-7](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/image-20230725010716968.png)
+![捕获-7](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/image-20230725010716968.png)
 
 关机后，关闭电源，拔掉U盘，重新开机之后即可正常进入机顶盒内的armbian系统！！！
 
-![捕获-8](https://cdn.dmnb.cf/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/image-20230725010851979.png)
+![捕获-8](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/07/25/image-20230725010851979.png)
 
 ## 芜湖！！起飞啦！！！
 

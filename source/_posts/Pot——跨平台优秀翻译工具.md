@@ -22,7 +22,7 @@ updated: 2023-6-23T9:34:36.830+8:0
 > 不用 top 是因为已经有知名 linux 软件占用了`top`这个名字 所以现在你也可以叫他翻译锅 😂
 
 
-| ![img](https://cdn.dmnb.cf/gh/pot-app/pot-desktop@master/asset/1.png) | ![img](https://cdn.dmnb.cf/gh/pot-app/pot-desktop@master/asset/2.png) | ![img](https://cdn.dmnb.cf/gh/pot-app/pot-desktop@master/asset/3.png) |
+| ![img](https://cdn.m-l.cc/gh/pot-app/pot-desktop@master/asset/1.png) | ![img](https://cdn.m-l.cc/gh/pot-app/pot-desktop@master/asset/2.png) | ![img](https://cdn.m-l.cc/gh/pot-app/pot-desktop@master/asset/3.png) |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 |                                                                             |                                                                             |                                                                             |
 
@@ -31,12 +31,12 @@ updated: 2023-6-23T9:34:36.830+8:0
 
 |                | 描述                                                                                                                    | 预览                                                                          |
 | -------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| 划词翻译       | 选中需要翻译的文本之后，按下划词翻译快捷键即可                                                                          | ![img](https://cdn.dmnb.cf/gh/pot-app/pot-desktop@master/asset/eg1.gif) |
-| 输入翻译       | 按下输入翻译快捷键，输入需要翻译的文本，`Enter` 键翻译                                                                  | ![img](https://cdn.dmnb.cf/gh/pot-app/pot-desktop@master/asset/eg2.gif) |
-| 插件调用       | 选中需要翻译的文本之后，点击插件图标即可，详情见[插件调用](https://pot.pylogmon.com/docs/tutorial/config/plugin_config) | ![img](https://cdn.dmnb.cf/gh/pot-app/pot-desktop@master/asset/eg3.gif) |
-| 剪切板监听模式 | 打开翻译窗口，启动剪切板监听模式，复制想要翻译的内容即可                                                                | ![img](https://cdn.dmnb.cf/gh/pot-app/pot-desktop@master/asset/eg4.gif) |
-| 截图OCR        | 按下快捷键，框选需要识别区域即可                                                                                        | ![img](https://cdn.dmnb.cf/gh/pot-app/pot-desktop@master/asset/eg5.gif) |
-| 截图翻译       | 按下快捷键，框选需要识别区域即可                                                                                        | ![img](https://cdn.dmnb.cf/gh/pot-app/pot-desktop@master/asset/eg6.gif) |
+| 划词翻译       | 选中需要翻译的文本之后，按下划词翻译快捷键即可                                                                          | ![img](https://cdn.m-l.cc/gh/pot-app/pot-desktop@master/asset/eg1.gif) |
+| 输入翻译       | 按下输入翻译快捷键，输入需要翻译的文本，`Enter` 键翻译                                                                  | ![img](https://cdn.m-l.cc/gh/pot-app/pot-desktop@master/asset/eg2.gif) |
+| 插件调用       | 选中需要翻译的文本之后，点击插件图标即可，详情见[插件调用](https://pot.pylogmon.com/docs/tutorial/config/plugin_config) | ![img](https://cdn.m-l.cc/gh/pot-app/pot-desktop@master/asset/eg3.gif) |
+| 剪切板监听模式 | 打开翻译窗口，启动剪切板监听模式，复制想要翻译的内容即可                                                                | ![img](https://cdn.m-l.cc/gh/pot-app/pot-desktop@master/asset/eg4.gif) |
+| 截图OCR        | 按下快捷键，框选需要识别区域即可                                                                                        | ![img](https://cdn.m-l.cc/gh/pot-app/pot-desktop@master/asset/eg5.gif) |
+| 截图翻译       | 按下快捷键，框选需要识别区域即可                                                                                        | ![img](https://cdn.m-l.cc/gh/pot-app/pot-desktop@master/asset/eg6.gif) |
 
 ## 支持接口
 
