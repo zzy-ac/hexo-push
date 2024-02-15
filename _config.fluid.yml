@@ -962,6 +962,12 @@ links:
       avatar: "https://backmountaindevil.github.io/favicon.ico"
     }  
     - {
+      title: " 竹林里有冰的博客",
+      intro: "咱是一只大二的大本钟，日常全靠摆，就读于浙江工学院。",
+      link: "https://zhul.in/",
+      avatar: "https://bu.dusays.com/2022/03/20/d9af04eba27b5.png"
+    }  
+    - {
       title: "浪海导航",
       intro: "浪海导航 ~ 收录各种类型的博客",
       link: "https://www.langhai.net/",
