@@ -973,6 +973,12 @@ links:
       link: "https://www.langhai.net/",
       avatar: "https://www.langhai.net/assets/images/langhai-logo.png"
     }  
+    - {
+      title: "穿梭虫洞",
+      intro: "随机访问十年之约友链博客",
+      link: "http://foreverblog.cn/go.html",
+      avatar: "https://img.foreverblog.cn/wormhole_1.gif"
+    } 
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
