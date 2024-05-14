@@ -1,69 +1,44 @@
-name: 'English'
+search:
+  title: Search
+  keyword: keyword
+  status:
+    success: v
+    error: x
 
-home:
-  menu: 'Home'
-  title: 'Home'
+postTotal: "%d posts in total."
 
-archive:
-  menu: 'Archives'
-  title: 'Archives'
-  subtitle: 'Archives'
-  post_total: '%d posts in total'
-
-category:
-  menu: 'Categories'
-  title: 'Categories'
-  subtitle: 'Categories'
-  post_total: '%d posts in total'
-  more: 'More...'
-
-tag:
-  menu: 'Tags'
-  title: 'Tags'
-  subtitle: 'Tags'
-  post_total: '%d posts in total'
-
-about:
-  menu: 'About'
-  title: 'About'
-  subtitle: 'About'
-
-links:
-  menu: 'Links'
-  title: 'Links'
-  subtitle: 'Links'
-
-page404:
-  menu: 'Page not found'
-  title: 'Page not found'
-  subtitle: 'Page not found'
+paginator:
+  pre: Previous
+  next: Next
 
 post:
-  toc: 'Table of Contents'
-  prev_post: 'Previous'
-  next_post: 'Next'
-  updated: 'Last updated on %s'
-  meta:
-    wordcount: '%s words'
-    min2read: '%s mins'
-    views: '{} views'
-  copyright:
-    author: 'Author'
-    posted: 'Posted on'
-    updated: 'Updated on'
-    licensed: 'Licensed under'
-    CC: 'CC - Creative Commons license'
-    BY: 'BY - Attribution'
-    SA: 'SA - Share-alike'
-    NC: 'NC - Non-commercial'
-    ND: 'ND - No derivative works'
+  toc: TOC
+  pre: Previous
+  next: Next
 
-footer:
-  pv: 'Views: {}'
-  uv: 'Visitors: {}'
+home:
+  title: Home
 
-search:
-  title: 'Search'
-  keyword: 'Keyword'
+archive:
+  title: Archives
+  subtitle: Archive
 
-noscript_warning: 'Blog works best with JavaScript enabled'
+tag:
+  title: Tags
+  subtitle: Tag
+
+category:
+  title: Categories
+  subtitle: Category
+
+about:
+  title: About
+  subtitle: About
+
+page404:
+  title: Page not found
+  subtitle: Oops, Page not found...
+
+links:
+  title: Links
+  subtitle: Links

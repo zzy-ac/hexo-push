@@ -1,69 +1,44 @@
-name: 'Deutsch'
+search:
+  title: Suchen
+  keyword: Stichwort
+  status:
+    success: v
+    error: x
 
-home:
-  menu: 'Startseite'
-  title: 'Startseite'
+postTotal: Insgesamt %d Artikel.
 
-archive:
-  menu: 'Archiv'
-  title: 'Archiv'
-  subtitle: 'Archiv'
-  post_total: 'Insgesamt %d Artikel'
-
-category:
-  menu: 'Kategorien'
-  title: 'Kategorien'
-  subtitle: 'Kategorien'
-  post_total: 'Insgesamt %d Artikel'
-  more: 'More...'
-
-tag:
-  menu: 'Schlagwörter'
-  title: 'Schlagwörter'
-  subtitle: 'Schlagwörter'
-  post_total: 'Insgesamt %d Artikel'
-
-about:
-  menu: 'Über'
-  title: 'Über'
-  subtitle: 'Über'
-
-links:
-  menu: 'Weblinks'
-  title: 'Weblinks'
-  subtitle: 'Weblinks'
-
-page404:
-  menu: 'Die Seite wurde nicht gefunden'
-  title: 'Die Seite wurde nicht gefunden'
-  subtitle: 'Die Seite wurde nicht gefunden'
+paginator:
+  pre: Vorheriger
+  next: Nächster
 
 post:
-  toc: 'Inhaltsverzeichnis'
-  prev_post: 'Vorheriger'
-  next_post: 'Nächster'
-  updated: 'Geändert am %s'
-  meta:
-    wordcount: '%s wörter'
-    min2read: '%s minuten'
-    views: '{} ansichten'
-  copyright:
-    author: 'Beitragsautor'
-    posted: 'Veröffentlicht am'
-    updated: 'Geändert am'
-    licensed: 'Urheberrechtshinweis'
-    CC: 'CC - Creative Commons license'
-    BY: 'BY - Attribution'
-    SA: 'SA - Share-alike'
-    NC: 'NC - Non-commercial'
-    ND: 'ND - No derivative works'
+  toc: TOC
+  pre: Vorheriger
+  next: Nächster
 
-footer:
-  pv: 'Alle Aufrufe: {}'
-  uv: 'Alle Besucher: {}'
+home:
+  title: Startseite
 
-search:
-  title: 'Suchen'
-  keyword: 'Stichwort'
+archive:
+  title: Archiv
+  subtitle: Archiv
 
-noscript_warning: 'Blog funktioniert am besten mit aktiviertem JavaScript'
+tag:
+  title: Etiketten
+  subtitle: Etiketten
+
+category:
+  title: Kategorie
+  subtitle: Kategorie
+
+about:
+  title: Über mich
+  subtitle: Über mich
+
+page404:
+  title: Die Seite wurde nicht gefunden
+  subtitle: Die Seite wurde nicht gefunden
+
+links:
+  title: Weblinks
+  subtitle: Weblinks

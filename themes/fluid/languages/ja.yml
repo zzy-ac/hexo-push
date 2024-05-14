@@ -1,69 +1,44 @@
-name: '日本語'
+search:
+  title: 検索
+  keyword: キーワード
+  status:
+    success: v
+    error: x
 
-home:
-  menu: 'ホーム'
-  title: 'ホーム'
+postTotal: 合計 %d 件のポスト
 
-archive:
-  menu: 'アーカイブ'
-  title: 'アーカイブ'
-  subtitle: 'アーカイブ'
-  post_total: '全 %d 件のポスト'
-
-category:
-  menu: 'カテゴリ'
-  title: 'カテゴリ'
-  subtitle: 'カテゴリ'
-  post_total: '全 %d 件のポスト'
-  more: 'More...'
-
-tag:
-  menu: 'タグ'
-  title: 'タグ'
-  subtitle: 'タグ'
-  post_total: '全 %d 件のポスト'
-
-about:
-  menu: 'プロフィール'
-  title: 'プロフィール'
-  subtitle: 'プロフィール'
-
-links:
-  menu: 'リンク'
-  title: 'リンク'
-  subtitle: 'リンク'
-
-page404:
-  menu: 'ページが見つかりませんでした'
-  title: 'ページが見つかりませんでした'
-  subtitle: 'ページが見つかりませんでした'
+paginator:
+  pre: 前のページ
+  next: 次のページ
 
 post:
-  toc: '見出し'
-  prev_post: '前の記事'
-  next_post: '次の記事'
-  updated: '最終更新日：%s'
-  meta:
-    wordcount: '%s 単語'
-    min2read: '%s 分'
-    views: '{} 閲覧'
-  copyright:
-    author: '著者'
-    posted: '作成日'
-    updated: '修正日'
-    licensed: '著作権'
-    CC: 'CC - Creative Commons license'
-    BY: 'BY - Attribution'
-    SA: 'SA - Share-alike'
-    NC: 'NC - Non-commercial'
-    ND: 'ND - No derivative works'
+  toc: ディレクトリ
+  pre: 前の記事
+  next: 次の記事
 
-footer:
-  pv: '閲覧合計数: {}'
-  uv: '合計閲覧者数: {}'
+home:
+  title: ホーム
 
-search:
-  title: '検索'
-  keyword: 'キーワード'
+archive:
+  title: アーカイブ
+  subtitle: アーカイブ
 
-noscript_warning: 'ブログは JavaScript を有効にすると最適に機能します'
+tag:
+  title: タグ
+  subtitle: タグ
+
+category:
+  title: カテゴリー
+  subtitle: カテゴリー
+
+about:
+  title: 本ブログ情報　
+  subtitle: 本ブログ情報
+
+page404:
+  title: ページが見つかりませんでした
+  subtitle: ページが見つかりませんでした
+
+links:
+  title: リンク
+  subtitle: リンク

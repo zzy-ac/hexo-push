@@ -16,7 +16,8 @@ module.exports = (hexo) => {
         enable     : hexo.theme.config.highlight.enable,
         lib        : 'highlightjs',
         highlightjs: {
-          style: hexo.theme.config.highlight.style
+          style   : hexo.theme.config.highlight.style,
+          bg_color: hexo.theme.config.highlight.bg_color
         },
         prismjs: {
           style     : 'default',
@@ -27,14 +28,14 @@ module.exports = (hexo) => {
   }
 
   // Some configs that require hexo >= 5.0
-  if (parseInt(hexo.version[0], 10) < 5) {
-    if (isZh) {
-      hexo.log.warn('[Fluid] 检测到 Hexo 版本低于 5.0.0，部分功能可能会受影响');
-    } else {
-      hexo.log.warn('[Fluid] Hexo version < 5.0.0 detected, some features may not be available.');
-    }
+  if (hexo.version[0] < '5') {
     if (hexo.theme.config.code.highlight.lib === 'prismjs' && hexo.theme.config.code.highlight.prismjs.preprocess) {
       hexo.theme.config.code.highlight.prismjs.preprocess = false;
+      if (isZh) {
+        hexo.log.warn('[Fluid] 检测到 Hexo 版本低于 5.0.0，配置项 "prismjs:preprocess" 参数值被强制设置为 false');
+      } else {
+        hexo.log.warn('[Fluid] Hexo version < 5.0.0 detected, "prismjs:preprocess" in theme config is forced to false.');
+      }
     }
   }
 

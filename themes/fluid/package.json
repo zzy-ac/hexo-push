@@ -1,15 +1,7 @@
 {
   "name": "hexo-theme-fluid",
-  "version": "1.9.7",
+  "version": "1.8.12",
   "description": "An elegant Material-Design theme for Hexo.",
-  "main": "package.json",
-  "files": [
-    "languages",
-    "layout",
-    "scripts",
-    "source",
-    "_config.yml"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fluid-dev/hexo-theme-fluid.git"
@@ -20,8 +12,8 @@
     "fluid",
     "material"
   ],
-  "author": "Fluid-dev (https://github.com/fluid-dev)",
-  "license": "GPL-V3",
+  "author": "fluid-dev (https://github.com/fluid-dev)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fluid-dev/hexo-theme-fluid/issues"
   },

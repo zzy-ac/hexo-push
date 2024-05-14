@@ -38,16 +38,14 @@ page.banner_mask_alpha = page.banner_mask_alpha || theme.about.banner_mask_alpha
 
   <% if(page.comments) { %>
     <!-- Comments -->
-    <article id="comments">
+    <article class="comments" id="comments">
       <% var type %>
       <% if (typeof page.comment === 'string' && page.comment !== '') { %>
-        <% type = '_partials/comments/' + page.comment %>
+        <% type = '_partial/comments/' + page.comment %>
       <% } else { %>
-        <% type = '_partials/comments/' + theme.post.comments.type %>
+        <% type = '_partial/comments/' + theme.post.comments.type %>
       <% } %>
       <%- partial(type) %>
     </article>
   <% } %>
 </article>
-
-<%- partial('_partials/markdown-plugins') %>
