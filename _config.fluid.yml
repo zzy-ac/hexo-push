@@ -750,7 +750,7 @@ waline:
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick', 'mail']
   lang: 'zh-CN'
-  emoji: ['https://cdn./gh/walinejs/emojis/weibo']
+  emoji: ['https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tieba']
   dark: 'html[data-user-color-scheme="dark"]'
   avatar: 'retro'
   avatarCDN: 'https://seccdn.libravatar.org/avatar/'
