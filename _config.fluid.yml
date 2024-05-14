@@ -746,7 +746,7 @@ waline:
   path: window.location.pathname
   placeholder:
   meta: ['nick', 'mail', 'link']
-  requiredMeta: ['nick']
+  requiredMeta: ['nick', 'mail']
   lang: 'zh-CN'
   emoji: ['http://cdn.m-l.cc/gh/walinejs/emojis/weibo']
   dark: 'html[data-user-color-scheme="dark"]'
