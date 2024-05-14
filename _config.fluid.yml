@@ -58,10 +58,11 @@ code:
       # Select a style in the link
       # See: https://highlightjs.org/static/demo/
       style: "Github Gist"
+      
 
       # 是否根据 style 改变代码背景色（如果 style 是深色背景别忘了开启此项）
       # If true, the code background will change color based on the style (If style has a dark background, don't forget to true)
-      bg_color: false
+#      bg_color: false
 
     prismjs:
       # 在下方链接页面右侧的圆形按钮挑选 style 填入，也可以直接填入 css 链接
@@ -595,7 +596,8 @@ post:
   # Copyright, will be displayed at the end of each post
   copyright:
     enable: true
-    content: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！'
+#    content: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！'
+    license: 'BY'
 
   # 文章底部上一篇下一篇功能
   # Link to previous/next post
@@ -1057,4 +1059,5 @@ static_prefix:
 
   twikoo: https://cdn.m-l.cc/npm/twikoo@1/dist/
 
-  hint: /lib/hint/
+#  hint: /lib/hint/
+  hint: https://cdn.jsdelivr.net/npm/hint.css@2/
