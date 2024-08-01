@@ -7,7 +7,7 @@ keywords: null
 tags:
 - 网页部署
 title: 内网盒子重新变回家里云——cloudflared
-updated: '2024-08-01T10:52:44.311+08:00'
+updated: '2024-08-01T13:37:35.072+08:00'
 ---
 > 噩耗，因为工作原因搬家了，之前的宽带也用不了了，可能在未来挺长一段时间里没法用上家宽的公网ip了 QaQ！
 
@@ -17,17 +17,17 @@ updated: '2024-08-01T10:52:44.311+08:00'
 
 服务器内还是之前的那些服务，通过1panel面板，搭建了几个alist程序、lsky-pro图床、几个静态网页等等。搭建了什么服务不重要，你只需要把它们安置在不同的端口上就好了。
 
-例如：1panel在`1234`，alist-1在`12341`，alist-2在`12342`，lsky-pro在`12343`这样就好。当然还有ssh的服务也是需要被反代的，你可以就用默认的22,当然也不排除你用其他端口例如`2222`
+例如：1panel在 `1234`，alist-1在 `12341`，alist-2在 `12342`，lsky-pro在 `12343`这样就好。当然还有ssh的服务也是需要被反代的，你可以就用默认的22,当然也不排除你用其他端口例如 `2222`
 
 # Cloudflared
 
 ## web控制台
 
-服务端安排好之后，进入cloudflare，打开zero trust，选择`Networks`-`tunnels`，创建一个新的tunnel。
+服务端安排好之后，进入cloudflare，打开zero trust，选择 `Networks`-`tunnels`，创建一个新的tunnel。
 
 ![https://pic.m-l.cc/Qexo/2024/08/01/84b33ec02b87c7763ffe5cb02ce52d9d.png](https://pic.m-l.cc/Qexo/2024/08/01/84b33ec02b87c7763ffe5cb02ce52d9d.png)
 
-选`cloudflared`
+选 `cloudflared`
 
 ![https://pic.m-l.cc/Qexo/2024/08/01/b9e3b6084fda5900ffde3500ab17e854.png](https://pic.m-l.cc/Qexo/2024/08/01/b9e3b6084fda5900ffde3500ab17e854.png)
 
@@ -47,13 +47,13 @@ ssh通过内网ip进入你的盒子
 
 通过刚刚复制的命令安装cloudflare的并启动cloudflared服务，保持它能每次都开机自启。
 
-回到web端，返回`tunnels`页面查看到status变绿为`HEALTHY`则表示已经顺利连上了。
+回到web端，返回 `tunnels`页面查看到status变绿为 `HEALTHY`则表示已经顺利连上了。
 
 ![https://pic.m-l.cc/Qexo/2024/08/01/36ee0c442e6ac4be19ee578a9c2e5feb.png](https://pic.m-l.cc/Qexo/2024/08/01/36ee0c442e6ac4be19ee578a9c2e5feb.png)
 
 ## 配置隧道代理的各个web服务的端口
 
-在web页面的`Public hostname`下面创建各个Public hostnames，将你的各个http服务的站点添加进来例如：
+在web页面的 `Public hostname`下面创建各个Public hostnames，将你的各个http服务的站点添加进来例如：
 
 ![https://pic.m-l.cc/Qexo/2024/08/01/053b44bbf43a2127809925a9ffd5845f.png](https://pic.m-l.cc/Qexo/2024/08/01/053b44bbf43a2127809925a9ffd5845f.png)
 
@@ -69,7 +69,7 @@ ssh通过内网ip进入你的盒子
 
 ![https://pic.m-l.cc/Qexo/2024/08/01/05e773da58bcae0b77151e798354b778.png](https://pic.m-l.cc/Qexo/2024/08/01/05e773da58bcae0b77151e798354b778.png)
 
-在需要连接ssh的设备上如，你的PC电脑、你的手机termux等等，也安装好cloudflared，并在`.ssh/config`添加好对应的配置如下：
+在需要连接ssh的设备上如，你的PC电脑、你的手机termux等等，也安装好cloudflared，并在 `.ssh/config`添加好对应的配置如下：
 
 ```
 Host armbian
@@ -81,7 +81,7 @@ PreferredAuthentications publickey
 IdentityFile ~/.ssh/id_rsa_armbian
 ```
 
-这样你就能通过`ssh armbian命令来连接到你的ssh服务器了`
+这样你就能通过 `ssh armbian`命令来连接到你的ssh服务器了
 
 # 结束
 
