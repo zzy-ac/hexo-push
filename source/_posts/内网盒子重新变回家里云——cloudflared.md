@@ -1,11 +1,13 @@
 ---
 abbrlink: ''
-categories: []
+categories:
+- - 网页部署
 date: '2024-08-01T07:56:52.050346+08:00'
 keywords: null
-tags: []
+tags:
+- 网页部署
 title: 内网盒子重新变回家里云——cloudflared
-updated: '2024-08-01T07:56:52.474+08:00'
+updated: '2024-08-01T08:16:50.785+08:00'
 ---
 > 噩耗，因为工作原因搬家了，之前的宽带也用不了了，可能在未来挺长一段时间里没法用上加宽的公网ip了 QaQ！
 
@@ -38,3 +40,49 @@ updated: '2024-08-01T07:56:52.474+08:00'
 ![https://pic.m-l.cc/Qexo/2024/08/01/fdb6ee5356704410c0ccfa8967f1079d.png](https://pic.m-l.cc/Qexo/2024/08/01/fdb6ee5356704410c0ccfa8967f1079d.png)
 
 ## 服务端安装cloudflared
+
+让你的电脑和家里云盒子在同一个路由器下面（确保其在同一个局域网内）
+
+ssh通过内网ip进入你的盒子
+
+通过刚刚复制的命令安装cloudflare的并启动cloudflared服务，保持它能每次都开机自启。
+
+回到web端，返回`tunnels`页面查看到status变绿为`HEALTHY`则表示已经顺利连上了。
+
+![https://pic.m-l.cc/Qexo/2024/08/01/36ee0c442e6ac4be19ee578a9c2e5feb.png](https://pic.m-l.cc/Qexo/2024/08/01/36ee0c442e6ac4be19ee578a9c2e5feb.png)
+
+## 配置隧道代理的各个web服务的端口
+
+在web页面的`Public hostname`下面创建各个Public hostnames，将你的各个http服务的站点添加进来例如：
+
+![https://pic.m-l.cc/Qexo/2024/08/01/053b44bbf43a2127809925a9ffd5845f.png](https://pic.m-l.cc/Qexo/2024/08/01/053b44bbf43a2127809925a9ffd5845f.png)
+
+保存后会自动创建DNS记录，将你的域名绑定过去，这样就可以顺利的通过域名访问你的对应的服务了。
+
+对于自建的网站，你可以用OpenResty、nginx等web服务来将它们设定到不同的端口。
+
+这样就恢复对家里云内所有web服务的访问。
+
+## 代理SSH！
+
+配置域名和转发方式如下：
+
+![https://pic.m-l.cc/Qexo/2024/08/01/05e773da58bcae0b77151e798354b778.png](https://pic.m-l.cc/Qexo/2024/08/01/05e773da58bcae0b77151e798354b778.png)
+
+在需要连接ssh的设备上如，你的PC电脑、你的手机termux等等，也安装好cloudflared，并在`.ssh/config`添加好对应的配置如下：
+
+```
+Host armbian
+    HostName ssh.example.com
+    ProxyCommand cloudflared access ssh --hostname %h
+    User admin
+    Port 2222
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa_armbian
+```
+
+这样你就能通过`ssh armbian命令来连接到你的ssh服务器了`
+
+# 结束
+
+至此，家里云盒子上的各个web服务和ssh都已经恢复正常使用，除了rustdesk的服务端被迫放弃掉公网访问之外，我的其它家里云服务全部恢复正常。完结，撒花～！
