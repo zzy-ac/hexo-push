@@ -111,7 +111,7 @@ deploy:
   ignore_hidden: false 
   repo: 
 #    gitee: git@gitee.com:zzy-ac/zzy-ac.git,master
-    github: git@github.com:zzy-ac/zzy-ac.github.io.git,master
+    github: git@github.com:zzy-ac/zzy-ac.github.io.git,main
 # Search
 search:
   path: ./public/search.xml
