@@ -21,7 +21,7 @@ updated: '2024-08-03T14:02:09.636+08:00'
 curl -X POST https://example.com/api/v1/tokens \
 -H "Content-Type: application/json" \
 -d '{
-  "email": "m@m-l.cc",
+  "email": "your_email@example.com",
   "password": "your_password"
 }'
 ```
