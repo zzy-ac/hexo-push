@@ -13,7 +13,7 @@ updated: '2024-08-03T14:02:09.636+08:00'
 
 # 获取token
 
-搭建好lsky后在控制面板里可以看到接口页面，里面包含了api的各种使用方法。和最为关键的`接口URL——https://example.com/api/v1`
+搭建好lsky后在控制面板里可以看到接口页面，里面包含了api的各种使用方法。和最为关键的接口URL——https://example.com/api/v1`
 
 那么用curl命令获取token，命令如下：
 
@@ -36,11 +36,13 @@ curl -X POST https://example.com/api/v1/tokens \
 
 `"Authorization": "Bearer 1|1bJbwlqBfnggmOMEZqXT5XusaIwqiZjCDs7r1Ob5"`
 
+（填你自己获取到的token,我这只是放的官方的示例）
+
 # 编辑qexo图床配置
 
 如图，将lsky接口文档中的各项信息依次填入即可。
 
-需注意，自定义请求头和自定义请求主题中的空格，复制粘贴的可能存在错误，会变成非普通空格的空白符号。这里建议手打。
+需注意，自定义请求头和自定义请求主体中的空格，复制粘贴的可能存在错误，会变成非普通空格的空白符号。这里建议手打。
 
 ![https://img.m-l.cc/2024-08-03-66adc6613ce07.webp](https://img.m-l.cc/2024-08-03-66adc6613ce07.webp)
 
