@@ -7,13 +7,13 @@ keywords: null
 tags:
 - 网页部署
 title: Qexo使用Lsky-Pro兰空图床api
-updated: '2024-08-03T14:02:09.636+08:00'
+updated: '2024-08-03T17:47:46.213+08:00'
 ---
 > 最近才终于整明白了在qexo使用lsky的api的方法，在此简单记录一下
 
 # 获取token
 
-搭建好lsky后在控制面板里可以看到接口页面，里面包含了api的各种使用方法。和最为关键的接口URL——https://example.com/api/v1`
+搭建好lsky后在控制面板里可以看到接口页面，里面包含了api的各种使用方法。和最为关键的接口URL——`https://example.com/api/v1`
 
 那么用curl命令获取token，命令如下：
 
