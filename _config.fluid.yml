@@ -942,38 +942,17 @@ links:
       link: "https://www.tsaitang.com",
       avatar: "https://tm.aketer.me/share/logo.png"
     }
-
-    - {
-      title: "Sakura的随笔记录",
-      intro: "Sakura的随笔",
-      link: "https://blog.sakunia.tk/",
-      avatar: "https://git.sakunia.tk/Sakura1943/imgs/releases/download/imgs/favicon.jpg"
-    }
-
     - {
       title: "心夢博客",
       intro: "念念不忘，必有回响！",
       link: "https://www.liyp.cc",
       avatar: "https://i.loli.net/2021/02/07/vcU5PjRu2wL1WMO.png"
     }
-
-    - {
-      title: "筱易物语",
-      intro: "筱易的博客",
-      link: "https://backmountaindevil.github.io/#/",
-      avatar: "https://backmountaindevil.github.io/favicon.ico"
-    }  
     - {
       title: " 竹林里有冰的博客",
       intro: "咱是一只大二的大本钟，日常全靠摆，就读于浙江工学院。",
       link: "https://zhul.in/",
       avatar: "https://bu.dusays.com/2022/03/20/d9af04eba27b5.png"
-    }  
-    - {
-      title: "浪海导航",
-      intro: "浪海导航 ~ 收录各种类型的博客",
-      link: "https://www.langhai.net/",
-      avatar: "https://www.langhai.net/assets/images/langhai-logo.png"
     }  
     - {
       title: "穿梭虫洞",
