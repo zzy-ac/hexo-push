@@ -318,14 +318,14 @@ navbar:
         key: 'other',
         icon: 'iconfont icon-books',
         submenu: [
-          { key: '点墨短链', link: 'https://m-l.cc/' },
-          { key: '点墨图床', link: 'https://lsky.m-l.cc' },
-          { key: '点墨cloudreve', link: 'https://cloud.m-l.cc/' },
-          { key: '点墨网盘(om)', link: 'https://pan.m-l.cc/' },
-          { key: '点墨云盘(Alist)', link: 'https://alist.m-l.cc/' },
-          { key: '点墨字体编辑器', link: 'https://font.m-l.cc/' },
-          { key: '点墨md编辑器', link: 'https://md.m-l.cc' },
-          { key: '点墨的GitHub文件加速', link: 'https://gh.m-l.cc/' }
+          { key: '鸣庚短链', link: 'https://m-l.cc/' },
+          { key: '鸣庚图床', link: 'https://lsky.m-l.cc' },
+          { key: '鸣庚cloudreve', link: 'https://cloud.m-l.cc/' },
+          { key: '鸣庚网盘(om)', link: 'https://pan.m-l.cc/' },
+          { key: '鸣庚云盘(Alist)', link: 'https://alist.m-l.cc/' },
+          { key: '鸣庚字体编辑器', link: 'https://font.m-l.cc/' },
+          { key: '鸣庚md编辑器', link: 'https://md.m-l.cc' },
+          { key: '鸣庚的GitHub文件加速', link: 'https://gh.m-l.cc/' }
         ]
     }
 
@@ -925,8 +925,8 @@ links:
   # Member item of page
   items:
     - {
-      title: "点墨阁github",
-      intro: "点墨阁的github pages",
+      title: "鸣庚亭github",
+      intro: "鸣庚亭的github pages",
       link: "https://zzy-ac.github.io/",
       avatar: "/images/favicon.png"
     }
