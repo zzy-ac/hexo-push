@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
 首先看效果：
 
-![upload](http://fars.ee/PCiH)
+![upload](https://img.m-l.cc/2024-08-12-66b9b2253a655.gif)
 
 ## 创建.desktop文件
 
@@ -196,7 +196,7 @@ kbuildsycoca5
 
 ## 先看效果：
 
-![Upload-From-Typora](https://img.m-l.cc/2024-08-12-66b9b009e33d8.webp)
+![Upload-From-Typora](https://img.m-l.cc/2024-08-12-66b9b6a6598d6.gif)
 
 ## 具体操作：
 
