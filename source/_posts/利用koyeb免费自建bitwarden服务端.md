@@ -19,7 +19,7 @@ OTP和FreeOTP以及国产程序“神锁离线版”等等,可以自己选择合
 
 本博客使用的bitwarden服务端为rust编写的开源替代客户端[vaultwarden](https://github.com/dani-garcia/vaultwarden),[用 Rust 编写并与上游 Bitwarden 客户端](https://bitwarden.com/download/),该项目是兼容的 Bitwarden 服务器 API 的替代实现*,非常适合运行官方资源密集型服务可能不理想的自托管部署。
 
-![image-20230321123328198](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/03/21/image-20230321123328198.png)
+![image-20230321123328198](https://img.m-l.cc/2024-08-12-66b9afbdeca15.webp)
 
 # 部署
 
@@ -27,15 +27,15 @@ OTP和FreeOTP以及国产程序“神锁离线版”等等,可以自己选择合
 
 之后,登陆你的koyeb:
 
-![image-20230321123534246](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/03/21/image-20230321123534246.png)
+![image-20230321123534246](https://img.m-l.cc/2024-08-12-66b9ad1a1ffa1.webp)
 
 接着,点击 `create app +`来创建应用,并选择docker选项
 
-![image-20230321123737038](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/03/21/image-20230321123737038.png)
+![image-20230321123737038](https://img.m-l.cc/2024-08-12-66b9adcc4b8bf.webp)
 
 在images栏填入 `vaultwarden/server`,点击 `next`、`Advanced`、将端口从8000修改为80
 
-![image-20230321124112083](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/03/21/image-20230321124112083.png)
+![image-20230321124112083](https://img.m-l.cc/2024-08-12-66b9af3b9a9ba.webp)
 
 ---
 
@@ -49,15 +49,15 @@ OTP和FreeOTP以及国产程序“神锁离线版”等等,可以自己选择合
 
 打开db4free,点击左侧菜单栏中的数据库一栏:
 
-![https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_3baed74f62a0cde5b46d4f1547b1cccc.png](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_3baed74f62a0cde5b46d4f1547b1cccc.png)
+![https://img.m-l.cc/2024-08-12-66b9ad8074144.webp](https://img.m-l.cc/2024-08-12-66b9ad8074144.webp)
 
 之后在新页面点击 `马上建立你的免费MySQL账号 »`按钮
 
-![https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_511f1f647fa585bf245aca3f1389e65e.png](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_511f1f647fa585bf245aca3f1389e65e.png)
+![https://img.m-l.cc/2024-08-12-66b9ad9334368.webp](https://img.m-l.cc/2024-08-12-66b9ad9334368.webp)
 
 依次填入数据库名称、数据库用户名、数据库密码以及你的邮箱(此处可用临时邮箱)这样你就申请到了一个免费的mysql数据库。在接下来的文字中我将用[dbname]、[username]、[password]来分别代表你输入的数据库名、用户名和密码。
 
-![https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_3e2d17bf5f6c81c90564b470c9179c51.png](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_3e2d17bf5f6c81c90564b470c9179c51.png)
+![https://img.m-l.cc/2024-08-12-66b9ae811d282.webp](https://img.m-l.cc/2024-08-12-66b9ae811d282.webp)
 
 ---
 
@@ -66,23 +66,23 @@ OTP和FreeOTP以及国产程序“神锁离线版”等等,可以自己选择合
 经过反馈和确认，现在新建的数据库直接被koyeb中的vaultwarden调用会导致表创建失败暂时没去研究原因，偷个懒直接把创建好的空白数据库放上来。
 
 使用步骤打开db4free自带的phpMyAdmin
-![https://s2.loli.net/2023/11/19/RamsK8PjCIVFrDy.png](https://s2.loli.net/2023/11/19/RamsK8PjCIVFrDy.png)
+![https://img.m-l.cc/2024-08-12-66b9af1ba7f54.webp](https://img.m-l.cc/2024-08-12-66b9af1ba7f54.webp)
 
 输入数据库的帐号密码
 
-![https://s2.loli.net/2023/11/19/QMZGHS5sNjr4bRq.png](https://s2.loli.net/2023/11/19/QMZGHS5sNjr4bRq.png)
+![https://img.m-l.cc/2024-08-12-66b9ad201d66a.webp](https://img.m-l.cc/2024-08-12-66b9ad201d66a.webp)
 
 点击你的数据库名称
 
-![https://s2.loli.net/2023/11/19/WoxQzBlm5p7jPJt.png](https://s2.loli.net/2023/11/19/WoxQzBlm5p7jPJt.png)
+![https://img.m-l.cc/2024-08-12-66b9af66f2843.webp](https://img.m-l.cc/2024-08-12-66b9af66f2843.webp)
 
 点击导入
 
-![https://s2.loli.net/2023/11/19/Zh52a6P9dLsmtCK.png](https://s2.loli.net/2023/11/19/Zh52a6P9dLsmtCK.png)
+![https://img.m-l.cc/2024-08-12-66b9b0700f4b8.webp](https://img.m-l.cc/2024-08-12-66b9b0700f4b8.webp)
 
 选择已创建好的[空白数据库](https://gh.m-l.cc/https://raw.githubusercontent.com/zzy-ac/My-Selves-Cloud/main/vaultwarden.sql)并导入：
 
-![https://s2.loli.net/2023/11/19/7ZQxUjAd4f58JnS.png](https://s2.loli.net/2023/11/19/7ZQxUjAd4f58JnS.png)
+![https://img.m-l.cc/2024-08-12-66b9ae1e17ba9.webp](https://img.m-l.cc/2024-08-12-66b9ae1e17ba9.webp)
 
 ---
 
@@ -95,7 +95,7 @@ mysql://[username]:[password]@db4free.net:3306/[dbname]
 ## 添加环境变量
 
 接下来你只需要回到koyeb容器的创建页面,如果已经创建了的话,你只需要进入该项目的设置页面,找到 `Environment variables`在其下创建如图的两个环境变量,其中 `DATABASE_URL`的值为上面排列好的 `mysql://[username]:[password]@db4free.net:3306/[dbname]`而 `RUST_BACKTRACE`的值则为1。
-![https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_c762ffb85dfaaa764e380b362b017d84.png](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/4/7/image_c762ffb85dfaaa764e380b362b017d84.png)
+![https://img.m-l.cc/2024-08-12-66b9b02191c35.webp](https://img.m-l.cc/2024-08-12-66b9b02191c35.webp)
 
 之后的步骤没有区别,照做就行。
 
@@ -103,11 +103,11 @@ mysql://[username]:[password]@db4free.net:3306/[dbname]
 
 修改你的应用名称,也就是你koyeb默认生成的网站的前缀
 
-![image-20230321124200568](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/03/21/image-20230321124200568.png)
+![image-20230321124200568](https://img.m-l.cc/2024-08-12-66b9acb0b118f.webp)
 
 点击 `deploy`,等待程序状态变为healthy,即可正常使用
 
-![image-20230321124344526](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2023/03/21/image-20230321124344526.png)
+![image-20230321124344526](https://img.m-l.cc/2024-08-12-66b9ac4eb5eae.webp)
 
 # 使用
 

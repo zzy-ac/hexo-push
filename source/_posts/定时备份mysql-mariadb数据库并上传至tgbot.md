@@ -57,11 +57,11 @@ curl -F document=@"./backup_`date +%F`.sql" 'https://api.telegram.org/bot<bot_to
 
 1. 创建一个github仓库，权限设为私人（Private）
 
-![image-20231109195138845](https://img-blog.csdnimg.cn/fce4c31c34d54b208acc3184582605c8.png)
+![image-20231109195138845](https://img.m-l.cc/2024-08-12-66b9adfeb06ec.webp)
 
 2. 点击actions创建workflows文件
 
-![image-20231109195419519](https://img-blog.csdnimg.cn/a0df8d40db764398964f9998f49213ab.png)
+![image-20231109195419519](https://img.m-l.cc/2024-08-12-66b9ad2904dce.webp)
 
 3. 在yml文件中填入如下内容
 
@@ -100,8 +100,8 @@ jobs:
 
 actions运行成功后将会把备份到的数据库文件发送到你的tgbot如下图：
 
-![image-20231109200104152](https://img-blog.csdnimg.cn/1cbffc36466b4b1b997c7f5e0ca57c3d.png)
+![image-20231109200104152](https://img.m-l.cc/2024-08-12-66b9ae25e3a26.webp)
 
-![image-20231109200125616](https://img-blog.csdnimg.cn/12bfd0c5775747ea846acc3fb553046a.png)
+![image-20231109200125616](https://img.m-l.cc/2024-08-12-66b9acaade0d5.webp)
 
 至此，自动定时备份数据库的功能就实现完毕了，在需要还原数据库时可以使用db4free自带的phpMyAdmin将数据库备份文件导入，或通过命令导入。

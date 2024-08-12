@@ -25,19 +25,19 @@ updated: '2024-08-01T13:37:35.072+08:00'
 
 服务端安排好之后，进入cloudflare，打开zero trust，选择 `Networks`-`tunnels`，创建一个新的tunnel。
 
-![https://pic.m-l.cc/Qexo/2024/08/01/84b33ec02b87c7763ffe5cb02ce52d9d.png](https://pic.m-l.cc/Qexo/2024/08/01/84b33ec02b87c7763ffe5cb02ce52d9d.png)
+![https://img.m-l.cc/2024-08-12-66b9acd37e4aa.webp](https://img.m-l.cc/2024-08-12-66b9acd37e4aa.webp)
 
 选 `cloudflared`
 
-![https://pic.m-l.cc/Qexo/2024/08/01/b9e3b6084fda5900ffde3500ab17e854.png](https://pic.m-l.cc/Qexo/2024/08/01/b9e3b6084fda5900ffde3500ab17e854.png)
+![https://img.m-l.cc/2024-08-12-66b9ad60c0e7c.webp](https://img.m-l.cc/2024-08-12-66b9ad60c0e7c.webp)
 
 随便来个喜欢的名字
 
-![https://pic.m-l.cc/Qexo/2024/08/01/2bc527688b89c3bb9fdb9a98fd298342.png](https://pic.m-l.cc/Qexo/2024/08/01/2bc527688b89c3bb9fdb9a98fd298342.png)
+![https://img.m-l.cc/2024-08-12-66b9afa750503.webp](https://img.m-l.cc/2024-08-12-66b9afa750503.webp)
 
 选择你所用的服务端系统版本和架构，并复制对应的cloudflared安装命令。在这里我的家里云盒子是armbian的系统，所以选到得便和arm64-bit就行。
 
-![https://pic.m-l.cc/Qexo/2024/08/01/fdb6ee5356704410c0ccfa8967f1079d.png](https://pic.m-l.cc/Qexo/2024/08/01/fdb6ee5356704410c0ccfa8967f1079d.png)
+![https://img.m-l.cc/2024-08-12-66b9af9fb8451.webp](https://img.m-l.cc/2024-08-12-66b9af9fb8451.webp)
 
 ## 服务端安装cloudflared
 
@@ -49,13 +49,13 @@ ssh通过内网ip进入你的盒子
 
 回到web端，返回 `tunnels`页面查看到status变绿为 `HEALTHY`则表示已经顺利连上了。
 
-![https://pic.m-l.cc/Qexo/2024/08/01/36ee0c442e6ac4be19ee578a9c2e5feb.png](https://pic.m-l.cc/Qexo/2024/08/01/36ee0c442e6ac4be19ee578a9c2e5feb.png)
+![https://img.m-l.cc/2024-08-12-66b9b093c3c02.webp](https://img.m-l.cc/2024-08-12-66b9b093c3c02.webp)
 
 ## 配置隧道代理的各个web服务的端口
 
 在web页面的 `Public hostname`下面创建各个Public hostnames，将你的各个http服务的站点添加进来例如：
 
-![https://pic.m-l.cc/Qexo/2024/08/01/053b44bbf43a2127809925a9ffd5845f.png](https://pic.m-l.cc/Qexo/2024/08/01/053b44bbf43a2127809925a9ffd5845f.png)
+![https://img.m-l.cc/2024-08-12-66b9aed7325b9.webp](https://img.m-l.cc/2024-08-12-66b9aed7325b9.webp)
 
 保存后会自动创建DNS记录，将你的域名绑定过去，这样就可以顺利的通过域名访问你的对应的服务了。
 
@@ -67,7 +67,7 @@ ssh通过内网ip进入你的盒子
 
 配置域名和转发方式如下：
 
-![https://pic.m-l.cc/Qexo/2024/08/01/05e773da58bcae0b77151e798354b778.png](https://pic.m-l.cc/Qexo/2024/08/01/05e773da58bcae0b77151e798354b778.png)
+![https://img.m-l.cc/2024-08-12-66b9b05b3fc82.webp](https://img.m-l.cc/2024-08-12-66b9b05b3fc82.webp)
 
 在需要连接ssh的设备上如，你的PC电脑、你的手机termux等等，也安装好cloudflared，并在 `.ssh/config`添加好对应的配置如下：
 

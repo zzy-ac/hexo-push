@@ -94,4 +94,4 @@ os.system('rm -rf /path/pic2gh_cache/*')
 
 # 成果检验
 
-![typora上传效果](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/03/09/Peek_2022-03-09_21-40.gif)
+![typora上传效果](https://img.m-l.cc/2024-08-12-66b9afc40f79e.webp)

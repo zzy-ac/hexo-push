@@ -196,12 +196,12 @@ kbuildsycoca5
 
 ## 先看效果：
 
-![Upload-From-Typora](https://img.xiebruce.top/2020/04/06/daad5bbc462d3ada6abb3e240f7ba75b.gif)
+![Upload-From-Typora](https://img.m-l.cc/2024-08-12-66b9b009e33d8.webp)
 
 ## 具体操作：
 
 如下图，在Typora的`偏好设置`→`图象`→`上传服务设定`里：
-![image-20211127135023950](http://fars.ee/LZTo)
+![image-20211127135023950](https://img.m-l.cc/2024-08-12-66b9ac60542f9.webp)
 上传服务选`Custom Command`，自定义命令请填入：
 
 ```bash

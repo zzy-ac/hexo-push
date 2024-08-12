@@ -66,7 +66,7 @@ http://目标服务器 IP 地址:目标端口/安全入口
 
 #### 2、安装所需应用
 
-![https://s2.loli.net/2023/12/01/iUvAB38617uWwVN.png](https://s2.loli.net/2023/12/01/iUvAB38617uWwVN.png)
+![https://img.m-l.cc/2024-08-12-66b9af0bc79c4.webp](https://img.m-l.cc/2024-08-12-66b9af0bc79c4.webp)
 
 如果需要自己建站的话，可以安装OpenResty、PHP、Mysql等常用工具。
 
@@ -74,23 +74,23 @@ http://目标服务器 IP 地址:目标端口/安全入口
 
 #### 3、安装OpenResty时记得设置好http站点的默认端口如设成1234，https的端口可以不管。
 
-![https://s2.loli.net/2023/12/01/dN4rvnFItqfX1C8.png](https://s2.loli.net/2023/12/01/dN4rvnFItqfX1C8.png)
+![https://img.m-l.cc/2024-08-12-66b9aefa4c341.webp](https://img.m-l.cc/2024-08-12-66b9aefa4c341.webp)
 
 #### 4、在ddns脚本中将 `tool.example.com`工具域名解析到你的家宽ip上。
 
-![https://s2.loli.net/2023/12/01/dTGQVApgIJPFO5X.png](https://s2.loli.net/2023/12/01/dTGQVApgIJPFO5X.png)
+![https://img.m-l.cc/2024-08-12-66b9af6cdc334.webp](https://img.m-l.cc/2024-08-12-66b9af6cdc334.webp)
 
 #### 5、1p创建一个网站，将域名设为 `aaa.example.com`
 
-![https://s2.loli.net/2023/12/01/kRNFnKEpDtdCis9.png](https://s2.loli.net/2023/12/01/kRNFnKEpDtdCis9.png)
+![https://img.m-l.cc/2024-08-12-66b9adecb98e6.webp](https://img.m-l.cc/2024-08-12-66b9adecb98e6.webp)
 
 #### 6、在cloudflare创建一个cname记录，将 `aaa.example.com`解析到 `tool.example.com`上，并开启cf cdn。
 
-![https://s2.loli.net/2023/12/01/d4wz9HBtAWmoQYC.png](https://s2.loli.net/2023/12/01/d4wz9HBtAWmoQYC.png)
+![https://img.m-l.cc/2024-08-12-66b9ad894848f.webp](https://img.m-l.cc/2024-08-12-66b9ad894848f.webp)
 
 #### 7、创建一个Origin rules，将域名aaa.example.com重写到1234端口
 
-![https://s2.loli.net/2023/12/01/VO69giJMjSAdPve.png](https://s2.loli.net/2023/12/01/VO69giJMjSAdPve.png)
+![https://img.m-l.cc/2024-08-12-66b9adb083330.webp](https://img.m-l.cc/2024-08-12-66b9adb083330.webp)
 
 完成，访问你的aaa.example.com就能打开你的网站了。
 

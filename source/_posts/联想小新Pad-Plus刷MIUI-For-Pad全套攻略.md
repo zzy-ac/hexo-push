@@ -25,7 +25,7 @@ categories: Android
 
 现在官网已经收回了自助获过程取解锁文件的权限，如今解锁平板需要自己发邮件给hucy4@lenovo.com，写明详细需求包括解锁用途、设备序列号等，然后等待人工回复提供解锁文件。
 
-![image-20221127135505818](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127135505818.png)
+![image-20221127135505818](https://img.m-l.cc/2024-08-12-66b9b0692588f.webp)
 
 获取解锁文件后，将解压出来的img文件重命名为sn.img后放入`联想解锁回锁工具`目录，运行`联想解锁.bat`脚本。
 
@@ -43,20 +43,20 @@ categories: Android
 ①点击“QFIL”打开升级工具；（Windows 7路径：开始菜单- 所有程序-QPST-QFIL，Windows 10路径：开始菜单→QPST→QFIL）
 ②进入“QFIL”的“Configuratiion”标签页的 “FireHoseConfiguration”，按如下红框部分进行配置，device type选择“UFS”,点击OK确认保存；
 
-![img](http://image.coolapk.com/feed/2021/0906/13/797820_54a95e73_7682_9864@488x581.png.m.jpg)
+![img](https://img.m-l.cc/2024-08-12-66b9ae18d4c19.webp)
 
 ③重新返回QFIL主界面，选择“Meta Build”；
 ④点击“Load Content“，找到解压后的固件包，选择“contents.xml”文件，点击“打开”；
 
-![img](http://image.coolapk.com/feed/2021/0906/13/797820_301d5c0c_7682_9866@942x591.png.m.jpg)过程
+![img](https://img.m-l.cc/2024-08-12-66b9ae1244ae9.webp)过程
 
 ⑤平板关机，按住音量上键（只需要按住音量上键，别和别的按键凑数同时按），USB数据线插入手机，然后放开音量键，大概等待2s左右，QFIL软件自动识别到9008端口，这个时候才可以点击“Download Content”， 开始刷写固件，然后蓝色进度条开始走动。 （请注意操作方式，如果没有进入9008端口，就刷不了机）
 
-![img](http://image.coolapk.com/feed/2021/0906/13/797820_56345c0d_7682_9868@1000x693.png.m.jpg)
+![img](https://img.m-l.cc/2024-08-12-66b9aca2a386a.webp)
 
 (注意：如果QFIL工具提示 please select an existing port，请点击右上角select a port，勾选9008点击OK）
 
-![img](http://image.coolapk.com/feed/2021/0906/13/797820_6322731d_7682_987@796x554.png.m.jpg)
+![img](https://img.m-l.cc/2024-08-12-66b9ae0b2685c.webp)
 
 ⑥升级成功后提示“Download Succeed”，此时可以看到蓝色进度条走完。
 此时平板自行重启，待重启好了之后，平板已经降级成功！
@@ -75,27 +75,27 @@ categories: Android
 
 1. 手机关机进入第三方twrp,点重启，重启至fastbootd，，，大概这样子
 
-![image-20221127142332627](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142332627.png)
+![image-20221127142332627](https://img.m-l.cc/2024-08-12-66b9afec38957.webp)
 
 2. 点开一键刷入MIUI13.bat(一共三个bat文件，请点开对应机型的bat文件)
 
-![image-20221127142343138](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142343138.png)
+![image-20221127142343138](https://img.m-l.cc/2024-08-12-66b9ac72b1ee3.webp)
 
 
 
 3. 按着bat上的提示按回车键，完成一个按一下。如果没反应请检查驱动
 
-   ![image-20221127142357068](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142357068.png)
+   ![image-20221127142357068](https://img.m-l.cc/2024-08-12-66b9af93cd142.webp)
 
-   ![image-20221127142424793](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142424793.png)
+   ![image-20221127142424793](https://img.m-l.cc/2024-08-12-66b9acc30f2ea.webp)
 
-   ![image-20221127142431348](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142431348.png)
+   ![image-20221127142431348](https://img.m-l.cc/2024-08-12-66b9aeddcd8a6.webp)
 
-   ![image-20221127142437041](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142437041.png)
+   ![image-20221127142437041](https://img.m-l.cc/2024-08-12-66b9afd665133.webp)
 
-   ![image-20221127142443323](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142443323.png)
+   ![image-20221127142443323](https://img.m-l.cc/2024-08-12-66b9b098cc2e2.webp)
 
-   ![image-20221127142451106](https://cdn.m-l.cc/gh/zzy-ac/My-Selves-Cloud@main/images/2022/11/27/image-20221127142451106.png)
+   ![image-20221127142451106](https://img.m-l.cc/2024-08-12-66b9af51f04c2.webp)
 
 4. bat执行完成后手机将自动进入twrp
 过程
