@@ -7,7 +7,7 @@ keywords: null
 tags:
 - 网页部署
 title: Qexo使用Lsky-Pro兰空图床api
-updated: '2024-08-03T17:47:46.213+08:00'
+updated: '2024-08-12T16:44:51.784+08:00'
 ---
 > 最近才终于整明白了在qexo使用lsky的api的方法，在此简单记录一下
 
@@ -42,9 +42,10 @@ curl -X POST https://example.com/api/v1/tokens \
 
 如图，将lsky接口文档中的各项信息依次填入即可。
 
+![https://img.m-l.cc/2024-08-12-66b9affb8093f.webp](https://img.m-l.cc/2024-08-12-66b9affb8093f.webp)
+
 需注意，自定义请求头和自定义请求主体中的空格，复制粘贴的可能存在错误，会变成非普通空格的空白符号。这里建议手打。
 
-![https://img.m-l.cc/2024-08-12-66b9affb8093f.webp](https://img.m-l.cc/2024-08-12-66b9affb8093f.webp)
 
 ![https://img.m-l.cc/2024-08-12-66b9acf93b703.webp](https://img.m-l.cc/2024-08-12-66b9acf93b703.webp)
 
