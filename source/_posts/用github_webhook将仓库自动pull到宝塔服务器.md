@@ -16,7 +16,7 @@ categories: 网页部署
 ### webhook配置
 
 宝塔面板安装webhook插件后，点击设置-添加hook，添加下面的脚本，只需要修改git地址，其他的不用改。
-![1723451442718.webp](https://img.m-l.cc/2024-08-12-66b9c83ca7b2c.webp)
+![1723451442718.webp](https://img.dmnb.cf/2024-08-12-66b9c83ca7b2c.webp)
 
 ```
 #!/bin/bash
@@ -113,14 +113,14 @@ cat ~/.ssh/id_rsa.pub
 例如网站路径 wwwroot/blog，就把aaa替换成blog
 如果不替换的话，会在你的服务器根目录创建一个aaa目录，你把站点目录修改为aaa目录，也可以。
 
-![1723451483221.webp](https://img.m-l.cc/2024-08-12-66b9c86026ede.webp)
+![1723451483221.webp](https://img.dmnb.cf/2024-08-12-66b9c86026ede.webp)
 
 PayloadURl是http://服务器ip:端口/hook?access_key=HOOK密钥&param=aaa内容类型选择json，secret就是webhook的一串密钥，复制过去粘贴，其他默认，保存提交。
 
 ### 添加公钥
 
 https://github.com/settings/keys 打开设置ssh页面，点击New SSH key添加标题和刚刚在宝塔生成并复制的公钥
-![1723451528125.webp](https://img.m-l.cc/2024-08-12-66b9c88e63d50.webp)
+![1723451528125.webp](https://img.dmnb.cf/2024-08-12-66b9c88e63d50.webp)
 
 ## 测试
 

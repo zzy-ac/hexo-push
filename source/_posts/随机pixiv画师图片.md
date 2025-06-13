@@ -13,4 +13,4 @@ categories: api
 
 * 以下是随机图片展示  
 
-<center><a href="https://cover.m-l.cc/" data-fancybox="images" data-caption="随机插图"><img src="https://cover.m-l.cc/" width ="480"    /></a></center>
+<center><a href="https://cover.dmnb.cf/" data-fancybox="images" data-caption="随机插图"><img src="https://cover.dmnb.cf/" width ="480"    /></a></center>

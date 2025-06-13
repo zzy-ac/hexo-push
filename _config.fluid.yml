@@ -202,7 +202,7 @@ custom_css:
 
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
-custom_head: '<meta name="referrer" content="no-referrer"><script defer src="https://umami.m-l.cc/script.js" data-website-id="00b8a36a-8519-4f41-a35f-eac9b4918c29"></script>'
+custom_head: '<meta name="referrer" content="no-referrer"><script defer src="https://umami.dmnb.cf/script.js" data-website-id="00b8a36a-8519-4f41-a35f-eac9b4918c29"></script>'
 
 # 自定义底部 HTML 内容（位于 footer 上方），注意不要和 `post: custom` 配置冲突
 # Customize the HTML content at the bottom (located above the footer), be careful not to conflict with `post: custom`
@@ -318,14 +318,14 @@ navbar:
         key: 'other',
         icon: 'iconfont icon-books',
         submenu: [
-          { key: '鸣庚短链', link: 'https://m-l.cc/' },
-          { key: '鸣庚图床', link: 'https://lsky.m-l.cc' },
-          { key: '鸣庚cloudreve', link: 'https://cloud.m-l.cc/' },
-          { key: '鸣庚网盘(om)', link: 'https://pan.m-l.cc/' },
-          { key: '鸣庚云盘(Alist)', link: 'https://alist.m-l.cc/' },
-          { key: '鸣庚字体编辑器', link: 'https://font.m-l.cc/' },
-          { key: '鸣庚md编辑器', link: 'https://md.m-l.cc' },
-          { key: '鸣庚的GitHub文件加速', link: 'https://gh.m-l.cc/' }
+          { key: '鸣庚短链', link: 'https://dmnb.cf/' },
+          { key: '鸣庚图床', link: 'https://lsky.dmnb.cf' },
+          { key: '鸣庚cloudreve', link: 'https://cloud.dmnb.cf/' },
+          { key: '鸣庚网盘(om)', link: 'https://pan.dmnb.cf/' },
+          { key: '鸣庚云盘(Alist)', link: 'https://alist.dmnb.cf/' },
+          { key: '鸣庚字体编辑器', link: 'https://font.dmnb.cf/' },
+          { key: '鸣庚md编辑器', link: 'https://md.dmnb.cf' },
+          { key: '鸣庚的GitHub文件加速', link: 'https://gh.dmnb.cf/' }
         ]
     }
 
@@ -441,7 +441,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://cover.m-l.cc/    #https://api.zzy-ac.top/cover
+  banner_img: https://cover.dmnb.cf/    #https://api.zzy-ac.top/cover
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -513,7 +513,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://cover.m-l.cc/     #https://api.zzy-ac.top/cover
+  banner_img: https://cover.dmnb.cf/     #https://api.zzy-ac.top/cover
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -744,13 +744,13 @@ valine:
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
 waline:
-  serverURL: 'https://waline.m-l.cc/'
+  serverURL: 'https://waline.dmnb.cf/'
   path: window.location.pathname
   placeholder:
   meta: ['nick', 'mail', 'link']
   requiredMeta: ['nick', 'mail']
   lang: 'zh-CN'
-  emoji: ['https://cdn.m-l.cc/gh/walinejs/emojis@1.1.0/tieba']
+  emoji: ['https://cdn.dmnb.cf/gh/walinejs/emojis@1.1.0/tieba']
   dark: 'html[data-user-color-scheme="dark"]'
   avatar: 'retro'
   avatarCDN: 'https://seccdn.libravatar.org/avatar/'
@@ -808,7 +808,7 @@ cusdis:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://cover.m-l.cc/    #https://api.zzy-ac.top/cover
+  banner_img: https://cover.dmnb.cf/    #https://api.zzy-ac.top/cover
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -820,7 +820,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://cover.m-l.cc/     #https://api.zzy-ac.top/cover
+  banner_img: https://cover.dmnb.cf/     #https://api.zzy-ac.top/cover
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -850,7 +850,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://cover.m-l.cc/     #https://api.zzy-ac.top/cover
+  banner_img: https://cover.dmnb.cf/     #https://api.zzy-ac.top/cover
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -868,7 +868,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://cover.m-l.cc/     #https://api.zzy-ac.top/cover
+  banner_img: https://cover.dmnb.cf/     #https://api.zzy-ac.top/cover
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -894,7 +894,7 @@ about:
 #---------------------------
 page:
 
-  banner_img: https://cover.m-l.cc/    #https://api.zzy-ac.top/cover
+  banner_img: https://cover.dmnb.cf/    #https://api.zzy-ac.top/cover
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -905,7 +905,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: https://cover.m-l.cc/    #https://api.zzy-ac.top/cover
+  banner_img: https://cover.dmnb.cf/    #https://api.zzy-ac.top/cover
   banner_img_height: 85
   banner_mask_alpha: 0.3
   subtitle: "404 - 页面走丢啦～"
@@ -917,7 +917,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://cover.m-l.cc/    #https://api.zzy-ac.top/cover
+  banner_img: https://cover.dmnb.cf/    #https://api.zzy-ac.top/cover
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -958,7 +958,7 @@ links:
       title: "穿梭虫洞",
       intro: "随机访问十年之约友链博客",
       link: "http://foreverblog.cn/go.html",
-      avatar: "https://img.m-l.cc/2024-08-04-66af97de88e27.gif"
+      avatar: "https://img.dmnb.cf/2024-08-04-66af97de88e27.gif"
     } 
 
   # 当成员头像加载失败时，替换为指定图片
@@ -998,45 +998,45 @@ static_prefix:
   internal_css: /css
   internal_img: /images
 
-  anchor: https://cdn.m-l.cc/npm/anchor-js@4/
+  anchor: https://cdn.dmnb.cf/npm/anchor-js@4/
 
-  github_markdown: https://cdn.m-l.cc/npm/github-markdown-css@4/
+  github_markdown: https://cdn.dmnb.cf/npm/github-markdown-css@4/
 
-  jquery: https://cdn.m-l.cc/npm/jquery@3/dist/
+  jquery: https://cdn.dmnb.cf/npm/jquery@3/dist/
 
-  bootstrap: https://cdn.m-l.cc/npm/bootstrap@4/dist/
+  bootstrap: https://cdn.dmnb.cf/npm/bootstrap@4/dist/
 
-  highlightjs: https://cdn.m-l.cc/npm/highlight.js@10/
+  highlightjs: https://cdn.dmnb.cf/npm/highlight.js@10/
 
-  prismjs: https://cdn.m-l.cc/npm/prismjs@1/
+  prismjs: https://cdn.dmnb.cf/npm/prismjs@1/
 
-  tocbot: https://cdn.m-l.cc/npm/tocbot@4/dist/
+  tocbot: https://cdn.dmnb.cf/npm/tocbot@4/dist/
 
-  typed: https://cdn.m-l.cc/npm/typed.js@2/lib/
+  typed: https://cdn.dmnb.cf/npm/typed.js@2/lib/
 
-  fancybox: https://cdn.m-l.cc/npm/@fancyapps/fancybox@3/dist/
+  fancybox: https://cdn.dmnb.cf/npm/@fancyapps/fancybox@3/dist/
 
-  nprogress: https://cdn.m-l.cc/npm/nprogress@0/
+  nprogress: https://cdn.dmnb.cf/npm/nprogress@0/
 
-  mathjax: https://cdn.m-l.cc/npm/mathjax@3/es5/
+  mathjax: https://cdn.dmnb.cf/npm/mathjax@3/es5/
 
-  katex: https://cdn.m-l.cc/npm/katex@0/dist/
+  katex: https://cdn.dmnb.cf/npm/katex@0/dist/
 
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
 
-  clipboard: https://cdn.m-l.cc/npm/clipboard@2/dist/
+  clipboard: https://cdn.dmnb.cf/npm/clipboard@2/dist/
 
-  mermaid: https://cdn.m-l.cc/npm/mermaid@8/dist/
+  mermaid: https://cdn.dmnb.cf/npm/mermaid@8/dist/
 
-  valine: https://cdn.m-l.cc/npm/valine@1/dist/
+  valine: https://cdn.dmnb.cf/npm/valine@1/dist/
 
-  waline: https://cdn.m-l.cc/npm/@waline/client@1/dist/
+  waline: https://cdn.dmnb.cf/npm/@waline/client@1/dist/
 
-  gitalk: https://cdn.m-l.cc/npm/gitalk@1/dist/
+  gitalk: https://cdn.dmnb.cf/npm/gitalk@1/dist/
 
-  disqusjs: https://cdn.m-l.cc/npm/disqusjs@1/dist/
+  disqusjs: https://cdn.dmnb.cf/npm/disqusjs@1/dist/
 
-  twikoo: https://cdn.m-l.cc/npm/twikoo@1/dist/
+  twikoo: https://cdn.dmnb.cf/npm/twikoo@1/dist/
 
 #  hint: /lib/hint/
   hint: https://cdn.jsdelivr.net/npm/hint.css@2/

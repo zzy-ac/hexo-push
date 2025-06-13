@@ -21,9 +21,9 @@ categories: 网页部署
 ***
 
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c1938a096.webp" data-fancybox="images" data-caption="tc_picture_00"><img src="https://img.m-l.cc/2024-08-12-66b9c1938a096.webp" width ="720"   /></a></center>
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c1d7e432f.webp" data-fancybox="images" data-caption="tc_picture_02"><img src="https://img.m-l.cc/2024-08-12-66b9c1d7e432f.webp" width ="720"   /></a></center>
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c20205c95.webp" data-fancybox="images" data-caption="tc_picture_01"><img src="https://img.m-l.cc/2024-08-12-66b9c20205c95.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c1938a096.webp" data-fancybox="images" data-caption="tc_picture_00"><img src="https://img.dmnb.cf/2024-08-12-66b9c1938a096.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c1d7e432f.webp" data-fancybox="images" data-caption="tc_picture_02"><img src="https://img.dmnb.cf/2024-08-12-66b9c1d7e432f.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c20205c95.webp" data-fancybox="images" data-caption="tc_picture_01"><img src="https://img.dmnb.cf/2024-08-12-66b9c20205c95.webp" width ="720"   /></a></center>
 
 
 
@@ -45,11 +45,11 @@ categories: 网页部署
 
 服务器安装宝塔后，安装PHP（建议5.6～7.4版本）、Nginx（版本随意）：
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c247cc652.webp" data-fancybox="images" data-caption="install"><img src="https://img.m-l.cc/2024-08-12-66b9c247cc652.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c247cc652.webp" data-fancybox="images" data-caption="install"><img src="https://img.dmnb.cf/2024-08-12-66b9c247cc652.webp" width ="720"   /></a></center>
 
 之后，选择网站–添加网站：
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c26fc6a01.webp" data-fancybox="images" data-caption="install1"><img src="https://img.m-l.cc/2024-08-12-66b9c26fc6a01.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c26fc6a01.webp" data-fancybox="images" data-caption="install1"><img src="https://img.dmnb.cf/2024-08-12-66b9c26fc6a01.webp" width ="720"   /></a></center>
 
 之后打开这个网站的目录，下载这个Oneindex项目master到本目录：
 
@@ -58,15 +58,15 @@ categories: 网页部署
 ### 下载源码
 ***
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c29809dcf.webp" data-fancybox="images" data-caption="下载源码"><img src="https://img.m-l.cc/2024-08-12-66b9c29809dcf.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c29809dcf.webp" data-fancybox="images" data-caption="下载源码"><img src="https://img.dmnb.cf/2024-08-12-66b9c29809dcf.webp" width ="720"   /></a></center>
 
 之后设置权限，给www用户全部读写权限，进入网站：
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c2bc40c10.webp" data-fancybox="images" data-caption="环境检测"><img src="https://img.m-l.cc/2024-08-12-66b9c2bc40c10.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c2bc40c10.webp" data-fancybox="images" data-caption="环境检测"><img src="https://img.dmnb.cf/2024-08-12-66b9c2bc40c10.webp" width ="720"   /></a></center>
 
 之后，点击下一步以后，出现界面：
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c2f56ab0d.webp" data-fancybox="images" data-caption="等待参数"><img src="https://img.m-l.cc/2024-08-12-66b9c2f56ab0d.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c2f56ab0d.webp" data-fancybox="images" data-caption="等待参数"><img src="https://img.dmnb.cf/2024-08-12-66b9c2f56ab0d.webp" width ="720"   /></a></center>
 
 我们的环境准备就完成了。
 
@@ -74,7 +74,7 @@ categories: 网页部署
 
 可以从这张图里看到：
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c3635645b.webp" data-fancybox="images" data-caption="等待参数"><img src="https://img.m-l.cc/2024-08-12-66b9c3635645b.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c3635645b.webp" data-fancybox="images" data-caption="等待参数"><img src="https://img.dmnb.cf/2024-08-12-66b9c3635645b.webp" width ="720"   /></a></center>
 
 我们需要三个参数：
 
@@ -88,7 +88,7 @@ categories: 网页部署
 如果你是世纪互联版本OneDrive，到[Microsoft Azure.cn App registrations](https://portal.azure.cn/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade)内创建。
 
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c38c6067f.webp" data-fancybox="images" data-caption="创建应用"><img src="https://img.m-l.cc/2024-08-12-66b9c38c6067f.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c38c6067f.webp" data-fancybox="images" data-caption="创建应用"><img src="https://img.dmnb.cf/2024-08-12-66b9c38c6067f.webp" width ="720"   /></a></center>
 
 之后，我们填入需要的参数：
 
@@ -96,20 +96,20 @@ categories: 网页部署
 * 受支持的帐户类型：如图：选择任何组织目录的账号和个人
 * 重定向 URI：这里填入作者Mintimate建立的API：     <code>https://tool.mintimate.cn/oneindexM/ </code>
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c3b2b0cc8.webp" data-fancybox="images" data-caption="填入参数"><img src="https://img.m-l.cc/2024-08-12-66b9c3b2b0cc8.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c3b2b0cc8.webp" data-fancybox="images" data-caption="填入参数"><img src="https://img.dmnb.cf/2024-08-12-66b9c3b2b0cc8.webp" width ="720"   /></a></center>
 
 之后，点击注册即可。
 
 ### 获取应用ID
 ***
 应用ID很好获取，注册了后，即可获得：
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c3e5eaf72.webp" data-fancybox="images" data-caption="填入参数"><img src="https://img.m-l.cc/2024-08-12-66b9c3e5eaf72.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c3e5eaf72.webp" data-fancybox="images" data-caption="填入参数"><img src="https://img.dmnb.cf/2024-08-12-66b9c3e5eaf72.webp" width ="720"   /></a></center>
 
 ### 设置权限
 ***
 在获取应用机密前，我们需要设置权限，点击：<code>API权限</code>-<code>Microsoft Graph</code>:
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c40a7c821.webp" data-fancybox="images" data-caption="设置权限"><img src="https://img.m-l.cc/2024-08-12-66b9c40a7c821.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c40a7c821.webp" data-fancybox="images" data-caption="设置权限"><img src="https://img.dmnb.cf/2024-08-12-66b9c40a7c821.webp" width ="720"   /></a></center>
 
 依此勾选：
 
@@ -120,37 +120,37 @@ categories: 网页部署
 最后**更新权限**即可：
 
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c43318f0a.webp" data-fancybox="images" data-caption="设置权限-完成"><img src="https://img.m-l.cc/2024-08-12-66b9c43318f0a.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c43318f0a.webp" data-fancybox="images" data-caption="设置权限-完成"><img src="https://img.dmnb.cf/2024-08-12-66b9c43318f0a.webp" width ="720"   /></a></center>
 
 到此，设置权限结束，接下来，我们可以去获取机密了。
 
 ### 获取机密
 ***
 最后，我们可以获取应用机密（密钥）了，点击：<code>证书和密码</code>-<code>新建客户端密码</code>：
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c45eb3845.webp" data-fancybox="images" data-caption="获取密钥"><img src="https://img.m-l.cc/2024-08-12-66b9c45eb3845.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c45eb3845.webp" data-fancybox="images" data-caption="获取密钥"><img src="https://img.dmnb.cf/2024-08-12-66b9c45eb3845.webp" width ="720"   /></a></center>
 
 按提示设置即可得到：
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c482016a1.webp" data-fancybox="images" data-caption="获取密钥-完成"><img src="https://img.m-l.cc/2024-08-12-66b9c482016a1.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c482016a1.webp" data-fancybox="images" data-caption="获取密钥-完成"><img src="https://img.dmnb.cf/2024-08-12-66b9c482016a1.webp" width ="720"   /></a></center>
 
 ## 初始化OneIndex
 ***
 上一步，我们已经得到了**应用ID和机密**，现在我们填入即可：
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c4ae64759.webp" data-fancybox="images" data-caption="输入ID和密钥"><img src="https://img.m-l.cc/2024-08-12-66b9c4ae64759.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c4ae64759.webp" data-fancybox="images" data-caption="输入ID和密钥"><img src="https://img.dmnb.cf/2024-08-12-66b9c4ae64759.webp" width ="720"   /></a></center>
 
 之后，点击<code>下一步</code>-<code>绑定账号</code>，即可完成绑定：
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c4f15997f.webp" data-fancybox="images" data-caption="绑定确认"><img src="https://img.m-l.cc/2024-08-12-66b9c4f15997f.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c4f15997f.webp" data-fancybox="images" data-caption="绑定确认"><img src="https://img.dmnb.cf/2024-08-12-66b9c4f15997f.webp" width ="720"   /></a></center>
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c51bb8c28.webp" data-fancybox="images" data-caption="绑定成功"><img src="https://img.m-l.cc/2024-08-12-66b9c51bb8c28.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c51bb8c28.webp" data-fancybox="images" data-caption="绑定成功"><img src="https://img.dmnb.cf/2024-08-12-66b9c51bb8c28.webp" width ="720"   /></a></center>
 
 你可以选择**进入后台**,也可以选择直接浏览效果页面。（默认为你OneDrive的根目录）
 
 ## 搭建图床
 首先，我们需要初始化网盘，进入后台后点击**页面缓存**，选择**重建所有缓存**：
 
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c52a985f8.webp" data-fancybox="images" data-caption="tc_picture_03.png"><img src="https://img.m-l.cc/2024-08-12-66b9c52a985f8.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c52a985f8.webp" data-fancybox="images" data-caption="tc_picture_03.png"><img src="https://img.dmnb.cf/2024-08-12-66b9c52a985f8.webp" width ="720"   /></a></center>
 
 之后按顺序点击**图床设置(OneImages)** ，勾选**作为网站首页**以及**允许游客上传图片**：
-<center><a href="https://img.m-l.cc/2024-08-12-66b9c5568cced.webp" data-fancybox="images" data-caption="tc_picture_03.png"><img src="https://img.m-l.cc/2024-08-12-66b9c5568cced.webp" width ="720"   /></a></center>
+<center><a href="https://img.dmnb.cf/2024-08-12-66b9c5568cced.webp" data-fancybox="images" data-caption="tc_picture_03.png"><img src="https://img.dmnb.cf/2024-08-12-66b9c5568cced.webp" width ="720"   /></a></center>
 至此我们就完成了一个完整的图床搭建过程，只需要绑定上我们自己的域名，就可以愉快的使用了。（非必须）
 
  * 注：本文部分内容转载自 <code>Mintimate's Blog</code>[原文地址](https://www.mintimate.cn/2020/09/22/oneindex/)

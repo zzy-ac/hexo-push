@@ -23,11 +23,11 @@ updated: Sun, 02 Apr 2023 07:01:17 GMT
 下单之后还是非常忐忑的，毕竟官方说法中并没有说明这款手柄对linux或者steam deck的支持，去问京东客服得到的答复也是否定的，所以就不清楚到底行不行。（不过好在是京东自营买的，可以七天无理由也不慌）
 
 手柄到手后是一个简单的开箱：
-![https://img.m-l.cc/2024-08-12-66b9ac6abefc9.webp](https://img.m-l.cc/2024-08-12-66b9ac6abefc9.webp)
+![https://img.dmnb.cf/2024-08-12-66b9ac6abefc9.webp](https://img.dmnb.cf/2024-08-12-66b9ac6abefc9.webp)
 
-![https://img.m-l.cc/2024-08-12-66b9ac4873b17.webp](https://img.m-l.cc/2024-08-12-66b9ac4873b17.webp)
+![https://img.dmnb.cf/2024-08-12-66b9ac4873b17.webp](https://img.dmnb.cf/2024-08-12-66b9ac4873b17.webp)
 
-![https://img.m-l.cc/2024-08-12-66b9af22bab34.webp](https://img.m-l.cc/2024-08-12-66b9af22bab34.webp)
+![https://img.dmnb.cf/2024-08-12-66b9af22bab34.webp](https://img.dmnb.cf/2024-08-12-66b9af22bab34.webp)
 
 从上图可以看到，整体的包装是比较简洁的样子，总共就一个本体、一个数据线外加一个无线接收器和说明书，没什么花里胡哨的东西。
 
@@ -46,7 +46,7 @@ updated: Sun, 02 Apr 2023 07:01:17 GMT
 到都到手了，也证实了可以正常用，那就干脆来测试下性能咯
 打开[https://gamepad-tester.com](https://gamepad-tester.com)对手柄的性能进行一个简单的测试，发现确实如网上所说什么无死区、摇杆丝滑、霍尔感应的线性扳机等等，手柄连上后在网站上似乎会自动识别为xbox360,在网上也看了下，大多数国产手柄也都是被这样识别。
 
-![https://img.m-l.cc/2024-08-12-66b9b08f7c545.webp](https://img.m-l.cc/2024-08-12-66b9b08f7c545.webp)
+![https://img.dmnb.cf/2024-08-12-66b9b08f7c545.webp](https://img.dmnb.cf/2024-08-12-66b9b08f7c545.webp)
 
 # 总结
 

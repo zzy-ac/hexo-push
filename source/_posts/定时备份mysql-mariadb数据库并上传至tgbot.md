@@ -10,7 +10,7 @@ updated: 2023-12-4T16:46:42.324+8:0
 ---
 # 前情提要：
 
-前文[利用koyeb免费自建bitwarden服务端](https://blog.m-l.cc/2023/03/21/li-yong-koyeb-mian-fei-zi-jian-bitwarden-fu-wu-duan/)可知博主之前已经将bitwarden自建的vaultwarden服务端部署在koyeb,并利用db4free提供的免费数据库实现了数据的永久存储。虽说这样基本不会有什么问题了，但db4free毕竟是别人提供的在线数据库，为了以防万一其跑路或者删数据库，今天特地花时间构思了数据库备份的方法。
+前文[利用koyeb免费自建bitwarden服务端](https://blog.dmnb.cf/2023/03/21/li-yong-koyeb-mian-fei-zi-jian-bitwarden-fu-wu-duan/)可知博主之前已经将bitwarden自建的vaultwarden服务端部署在koyeb,并利用db4free提供的免费数据库实现了数据的永久存储。虽说这样基本不会有什么问题了，但db4free毕竟是别人提供的在线数据库，为了以防万一其跑路或者删数据库，今天特地花时间构思了数据库备份的方法。
 本文分为两节：
 
 * 基本构思
@@ -57,11 +57,11 @@ curl -F document=@"./backup_`date +%F`.sql" 'https://api.telegram.org/bot<bot_to
 
 1. 创建一个github仓库，权限设为私人（Private）
 
-![image-20231109195138845](https://img.m-l.cc/2024-08-12-66b9adfeb06ec.webp)
+![image-20231109195138845](https://img.dmnb.cf/2024-08-12-66b9adfeb06ec.webp)
 
 2. 点击actions创建workflows文件
 
-![image-20231109195419519](https://img.m-l.cc/2024-08-12-66b9ad2904dce.webp)
+![image-20231109195419519](https://img.dmnb.cf/2024-08-12-66b9ad2904dce.webp)
 
 3. 在yml文件中填入如下内容
 
@@ -100,8 +100,8 @@ jobs:
 
 actions运行成功后将会把备份到的数据库文件发送到你的tgbot如下图：
 
-![image-20231109200104152](https://img.m-l.cc/2024-08-12-66b9ae25e3a26.webp)
+![image-20231109200104152](https://img.dmnb.cf/2024-08-12-66b9ae25e3a26.webp)
 
-![image-20231109200125616](https://img.m-l.cc/2024-08-12-66b9acaade0d5.webp)
+![image-20231109200125616](https://img.dmnb.cf/2024-08-12-66b9acaade0d5.webp)
 
 至此，自动定时备份数据库的功能就实现完毕了，在需要还原数据库时可以使用db4free自带的phpMyAdmin将数据库备份文件导入，或通过命令导入。

@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
 首先看效果：
 
-![upload](https://img.m-l.cc/2024-08-12-66b9b2253a655.gif)
+![upload](https://img.dmnb.cf/2024-08-12-66b9b2253a655.gif)
 
 ## 创建.desktop文件
 
@@ -196,12 +196,12 @@ kbuildsycoca5
 
 ## 先看效果：
 
-![Upload-From-Typora](https://img.m-l.cc/2024-08-12-66b9b6a6598d6.gif)
+![Upload-From-Typora](https://img.dmnb.cf/2024-08-12-66b9b6a6598d6.gif)
 
 ## 具体操作：
 
 如下图，在Typora的`偏好设置`→`图象`→`上传服务设定`里：
-![image-20211127135023950](https://img.m-l.cc/2024-08-12-66b9ac60542f9.webp)
+![image-20211127135023950](https://img.dmnb.cf/2024-08-12-66b9ac60542f9.webp)
 上传服务选`Custom Command`，自定义命令请填入：
 
 ```bash

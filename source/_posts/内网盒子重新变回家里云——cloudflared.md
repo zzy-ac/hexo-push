@@ -25,19 +25,19 @@ updated: '2024-08-01T13:37:35.072+08:00'
 
 服务端安排好之后，进入cloudflare，打开zero trust，选择 `Networks`-`tunnels`，创建一个新的tunnel。
 
-![https://img.m-l.cc/2024-08-12-66b9acd37e4aa.webp](https://img.m-l.cc/2024-08-12-66b9acd37e4aa.webp)
+![https://img.dmnb.cf/2024-08-12-66b9acd37e4aa.webp](https://img.dmnb.cf/2024-08-12-66b9acd37e4aa.webp)
 
 选 `cloudflared`
 
-![https://img.m-l.cc/2024-08-12-66b9ad60c0e7c.webp](https://img.m-l.cc/2024-08-12-66b9ad60c0e7c.webp)
+![https://img.dmnb.cf/2024-08-12-66b9ad60c0e7c.webp](https://img.dmnb.cf/2024-08-12-66b9ad60c0e7c.webp)
 
 随便来个喜欢的名字
 
-![https://img.m-l.cc/2024-08-12-66b9afa750503.webp](https://img.m-l.cc/2024-08-12-66b9afa750503.webp)
+![https://img.dmnb.cf/2024-08-12-66b9afa750503.webp](https://img.dmnb.cf/2024-08-12-66b9afa750503.webp)
 
 选择你所用的服务端系统版本和架构，并复制对应的cloudflared安装命令。在这里我的家里云盒子是armbian的系统，所以选到得便和arm64-bit就行。
 
-![https://img.m-l.cc/2024-08-12-66b9af9fb8451.webp](https://img.m-l.cc/2024-08-12-66b9af9fb8451.webp)
+![https://img.dmnb.cf/2024-08-12-66b9af9fb8451.webp](https://img.dmnb.cf/2024-08-12-66b9af9fb8451.webp)
 
 ## 服务端安装cloudflared
 
@@ -49,13 +49,13 @@ ssh通过内网ip进入你的盒子
 
 回到web端，返回 `tunnels`页面查看到status变绿为 `HEALTHY`则表示已经顺利连上了。
 
-![https://img.m-l.cc/2024-08-12-66b9b093c3c02.webp](https://img.m-l.cc/2024-08-12-66b9b093c3c02.webp)
+![https://img.dmnb.cf/2024-08-12-66b9b093c3c02.webp](https://img.dmnb.cf/2024-08-12-66b9b093c3c02.webp)
 
 ## 配置隧道代理的各个web服务的端口
 
 在web页面的 `Public hostname`下面创建各个Public hostnames，将你的各个http服务的站点添加进来例如：
 
-![https://img.m-l.cc/2024-08-12-66b9aed7325b9.webp](https://img.m-l.cc/2024-08-12-66b9aed7325b9.webp)
+![https://img.dmnb.cf/2024-08-12-66b9aed7325b9.webp](https://img.dmnb.cf/2024-08-12-66b9aed7325b9.webp)
 
 保存后会自动创建DNS记录，将你的域名绑定过去，这样就可以顺利的通过域名访问你的对应的服务了。
 
@@ -67,7 +67,7 @@ ssh通过内网ip进入你的盒子
 
 配置域名和转发方式如下：
 
-![https://img.m-l.cc/2024-08-12-66b9b05b3fc82.webp](https://img.m-l.cc/2024-08-12-66b9b05b3fc82.webp)
+![https://img.dmnb.cf/2024-08-12-66b9b05b3fc82.webp](https://img.dmnb.cf/2024-08-12-66b9b05b3fc82.webp)
 
 在需要连接ssh的设备上如，你的PC电脑、你的手机termux等等，也安装好cloudflared，并在 `.ssh/config`添加好对应的配置如下：
 
