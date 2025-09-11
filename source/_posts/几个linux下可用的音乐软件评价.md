@@ -13,13 +13,13 @@ categories: music
 
 QQ音乐作为腾讯旗下众多音乐app中的扛把子，在版权上有着先天的优势，同时随着近年来的不断努力，腾讯的QQ音乐也终于凑齐了win、mac、linux、iphone、android全平台的官方客户端。
 
-![image-20221022193629599](https://img.dmnb.cf/2024-08-12-66b9ad14cd480.webp)
+![image-20221022193629599](https://img.m-l.cc/2024-08-12-66b9ad14cd480.webp)
 
 其中linux客户端是基于electron架构运行的，目前已可以正常的流畅运行于全部的linux发行版中：
 
-![image-20221022193957231](https://img.dmnb.cf/2024-08-12-66b9afb7cd2ed.webp)
+![image-20221022193957231](https://img.m-l.cc/2024-08-12-66b9afb7cd2ed.webp)
 
-![image-20221022194010776](https://img.dmnb.cf/2024-08-12-66b9ac5ac322b.webp)
+![image-20221022194010776](https://img.m-l.cc/2024-08-12-66b9ac5ac322b.webp)
 
 ### 优势
 
@@ -39,9 +39,9 @@ QQ音乐作为腾讯旗下众多音乐app中的扛把子，在版权上有着先
 
 与QQ音乐一样，网易云音乐也推出了全平台的客户端，并且均实现了完善的功能体系：
 
-![image-20221022194939491](https://img.dmnb.cf/2024-08-12-66b9acdede1f4.webp)
+![image-20221022194939491](https://img.m-l.cc/2024-08-12-66b9acdede1f4.webp)
 
-![image-20221022195041144](https://img.dmnb.cf/2024-08-12-66b9ac8c5e83d.webp)
+![image-20221022195041144](https://img.m-l.cc/2024-08-12-66b9ac8c5e83d.webp)
 
 ### 优势
 
@@ -54,7 +54,7 @@ QQ音乐作为腾讯旗下众多音乐app中的扛把子，在版权上有着先
 
 * 随着linux版本的更新，和软件的长久停止维护以及网易云自身api的变动，目前发现音乐栏的个性推荐页面已经无法访问（至少在archlinux上是这样）
 
-![image-20221022200440403](https://img.dmnb.cf/2024-08-12-66b9af8dedeb0.webp)
+![image-20221022200440403](https://img.m-l.cc/2024-08-12-66b9af8dedeb0.webp)
 
 * 与QQ音乐相比曲库不那么全面
 * 界面比较陈旧，与现代软件存在一定的脱节（不过又不是不能用）
@@ -72,13 +72,13 @@ QQ音乐作为腾讯旗下众多音乐app中的扛把子，在版权上有着先
 
 落雪音乐集合了QQ音乐、网易云音乐、酷狗、酷我、咪咕五大国产音乐平台的api。
 
-![image-20221022201533992](https://img.dmnb.cf/2024-08-12-66b9ac91b7076.webp)
+![image-20221022201533992](https://img.m-l.cc/2024-08-12-66b9ac91b7076.webp)
 
-![image-20221022201601777](https://img.dmnb.cf/2024-08-12-66b9af99aed77.webp)
+![image-20221022201601777](https://img.m-l.cc/2024-08-12-66b9af99aed77.webp)
 
-![image-20221022201959981](https://img.dmnb.cf/2024-08-12-66b9b080a6538.webp)
+![image-20221022201959981](https://img.m-l.cc/2024-08-12-66b9b080a6538.webp)
 
-![image-20221022202113541](https://img.dmnb.cf/2024-08-12-66b9ad426cef8.webp)
+![image-20221022202113541](https://img.m-l.cc/2024-08-12-66b9ad426cef8.webp)
 
 ### 优势
 
@@ -96,9 +96,9 @@ QQ音乐作为腾讯旗下众多音乐app中的扛把子，在版权上有着先
 
 Listen 1可以搜索和播放来自网易云音乐，QQ音乐，酷狗音乐，酷我音乐，Bilibili，咪咕音乐网站的歌曲，让你的曲库更全面。
 
-![R6bTXkY](https://img.dmnb.cf/2024-08-12-66b9b6f1942cf.gif)
+![R6bTXkY](https://img.m-l.cc/2024-08-12-66b9b6f1942cf.gif)
 
-还支持歌单![Ae6ItmA](https://img.dmnb.cf/2024-08-12-66b9ac793b0d1.webp)功能，你可以方便的播放，收藏和创建自己的歌单。
+还支持歌单![Ae6ItmA](https://img.m-l.cc/2024-08-12-66b9ac793b0d1.webp)功能，你可以方便的播放，收藏和创建自己的歌单。
 
 
 
@@ -121,11 +121,11 @@ Listen 1可以搜索和播放来自网易云音乐，QQ音乐，酷狗音乐，�
 
 一款高颜值的第三方网易云播放器
 
-![image-20221022203124553](https://img.dmnb.cf/2024-08-12-66b9ac7f2ae6c.webp)
+![image-20221022203124553](https://img.m-l.cc/2024-08-12-66b9ac7f2ae6c.webp)
 
 拥有如下图所示的超多特性：
 
-![image-20221022203225962](https://img.dmnb.cf/2024-08-12-66b9ace394a22.webp)
+![image-20221022203225962](https://img.m-l.cc/2024-08-12-66b9ace394a22.webp)
 
 支持linux、mac以及windows系统，可以部署在vercel或vps搭建网页版程序。
 

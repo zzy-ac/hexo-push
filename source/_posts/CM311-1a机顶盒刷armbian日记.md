@@ -50,9 +50,9 @@ updated: 2023-7-25T1:13:26.527+8:0
 
 成功拆解机顶盒并找到了需要短接的焊点。第一天的瞎折腾到此结束，明天救砖回来再继续弄吧。
 
-![image-20230724211329657](https://img.dmnb.cf/2024-08-12-66b9aee5b1cfa.webp)
+![image-20230724211329657](https://img.m-l.cc/2024-08-12-66b9aee5b1cfa.webp)
 
-![image-20230724211537108](https://img.dmnb.cf/2024-08-12-66b9af49d0c9f.webp)
+![image-20230724211537108](https://img.m-l.cc/2024-08-12-66b9af49d0c9f.webp)
 
 ## DAY ~~2~~ 1.5
 
@@ -62,7 +62,7 @@ updated: 2023-7-25T1:13:26.527+8:0
 
 直接短接、刷入救砖包！
 
-![捕获](https://img.dmnb.cf/2024-08-12-66b9b076efe19.webp)
+![捕获](https://img.m-l.cc/2024-08-12-66b9b076efe19.webp)
 
 等进度条走完后拔掉数据线，关闭电源不再短接，正常开机进入安卓！
 
@@ -77,31 +77,31 @@ updated: 2023-7-25T1:13:26.527+8:0
 直接打开开心盒子输入机顶盒ip（进路由器查，或者连上hdmi在屏幕里看。
 adb连接上机顶盒！
 
-![捕获-1](https://img.dmnb.cf/2024-08-12-66b9ad5181ce2.webp)
+![捕获-1](https://img.m-l.cc/2024-08-12-66b9ad5181ce2.webp)
 
 点击调试，点击从U盘/SD卡开启，并在点击后迅速将U盘插入！
 
-![捕获-3](https://img.dmnb.cf/2024-08-12-66b9af370fa1b.webp)
+![捕获-3](https://img.m-l.cc/2024-08-12-66b9af370fa1b.webp)
 
 稍等片刻后，在路由器上确定armbian的ip,并ssh进入u盘系统。
 
 首次进入需要修改root用户密码，创建普通用户，确立时区和语言等：
 
-![捕获-4](https://img.dmnb.cf/2024-08-12-66b9af83e0735.webp)
+![捕获-4](https://img.m-l.cc/2024-08-12-66b9af83e0735.webp)
 
 然后使用armbian-install -m no开始将U盘系统写入机顶盒！
 
-![捕获-6](https://img.dmnb.cf/2024-08-12-66b9ad9f562ce.webp)
+![捕获-6](https://img.m-l.cc/2024-08-12-66b9ad9f562ce.webp)
 
 这里我用的cm311-1a-yst版本所以直接选择305,并使用习惯的ext4文件系统，选择1。
 
 稍等片刻后没有报错并按照提示poweroff关机即可。
 
-![捕获-7](https://img.dmnb.cf/2024-08-12-66b9ad59c0b2c.webp)
+![捕获-7](https://img.m-l.cc/2024-08-12-66b9ad59c0b2c.webp)
 
 关机后，关闭电源，拔掉U盘，重新开机之后即可正常进入机顶盒内的armbian系统！！！
 
-![捕获-8](https://img.dmnb.cf/2024-08-12-66b9ade256fb4.webp)
+![捕获-8](https://img.m-l.cc/2024-08-12-66b9ade256fb4.webp)
 
 ## 芜湖！！起飞啦！！！
 

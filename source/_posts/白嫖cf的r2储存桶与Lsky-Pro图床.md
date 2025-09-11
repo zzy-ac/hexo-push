@@ -31,9 +31,9 @@ CloudFlare R2 是 Cloudflare 公司推出的一款兼容 S3 API  的免费云存
 
 在侧边菜单找到 `R2 服务`,然后点击`创建存储桶`，名称随意喜欢就好，地区选亚太地区即可
 
-![https://img.dmnb.cf/2024-08-12-66b9b0021f8cf.webp](https://img.dmnb.cf/2024-08-12-66b9b0021f8cf.webp)
+![https://img.m-l.cc/2024-08-12-66b9b0021f8cf.webp](https://img.m-l.cc/2024-08-12-66b9b0021f8cf.webp)
 
-![https://img.dmnb.cf/2024-08-12-66b9add1e738e.webp](https://img.dmnb.cf/2024-08-12-66b9add1e738e.webp)
+![https://img.m-l.cc/2024-08-12-66b9add1e738e.webp](https://img.m-l.cc/2024-08-12-66b9add1e738e.webp)
 
 ## 绑定域名
 
@@ -47,7 +47,7 @@ CloudFlare R2 是 Cloudflare 公司推出的一款兼容 S3 API  的免费云存
 
 打开你创建的储存桶，点击设置然后：
 
-![https://img.dmnb.cf/2024-08-12-66b9ae7a1729b.webp](https://img.dmnb.cf/2024-08-12-66b9ae7a1729b.webp)
+![https://img.m-l.cc/2024-08-12-66b9ae7a1729b.webp](https://img.m-l.cc/2024-08-12-66b9ae7a1729b.webp)
 
 选择自定义域，并连接到你自己的域名，即可自定义图片的直链了。（其实不绑定域名的话也会提供一个R2.dev子域名给你，也能够正常使用，只不过这里的域名有些过于长了，不好记。）
 
@@ -62,7 +62,7 @@ CloudFlare R2 是 Cloudflare 公司推出的一款兼容 S3 API  的免费云存
 * 指定存储桶选择你刚创建的桶
 * TTL选永久。其他不变。
 
-![https://img.dmnb.cf/2024-08-12-66b9af1121cb2.webp](https://img.dmnb.cf/2024-08-12-66b9af1121cb2.webp)
+![https://img.m-l.cc/2024-08-12-66b9af1121cb2.webp](https://img.m-l.cc/2024-08-12-66b9af1121cb2.webp)
 
 # 部署Lsky-pro图床
 
@@ -77,7 +77,7 @@ CloudFlare R2 是 Cloudflare 公司推出的一款兼容 S3 API  的免费云存
 
 直接看图吧：
 
-![教程图片](https://img.dmnb.cf/2024-08-12-66b9ad4b8e3ab.webp)
+![教程图片](https://img.m-l.cc/2024-08-12-66b9ad4b8e3ab.webp)
 
 
 \* 访问域名：如上图，此域名可以自己解析**公开访问**里的域名，也可以在**域访问**哪里添加绑定。
@@ -102,7 +102,7 @@ CloudFlare R2 是 Cloudflare 公司推出的一款兼容 S3 API  的免费云存
 
 [alist挂载一刻相册教程](https://alist.nn.ci/zh/guide/drivers/baidu.photo.html)
 
-![https://img.dmnb.cf/2024-08-12-66b9acf269bde.webp](https://img.dmnb.cf/2024-08-12-66b9acf269bde.webp)
+![https://img.m-l.cc/2024-08-12-66b9acf269bde.webp](https://img.m-l.cc/2024-08-12-66b9acf269bde.webp)
 
 如此这般我的备选lsky存储方案也部署好了。
 
@@ -114,4 +114,4 @@ CloudFlare R2 是 Cloudflare 公司推出的一款兼容 S3 API  的免费云存
 
 如果希望体验一下我的图床的话，欢迎注册使用!：[lsky.dmnb.cf](https://lsky.dmnb.cf)
 
-![https://img.dmnb.cf/2024-08-12-66b9acfe16aab.webp](https://img.dmnb.cf/2024-08-12-66b9acfe16aab.webp)
+![https://img.m-l.cc/2024-08-12-66b9acfe16aab.webp](https://img.m-l.cc/2024-08-12-66b9acfe16aab.webp)

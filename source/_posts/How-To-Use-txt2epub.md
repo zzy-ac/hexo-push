@@ -59,6 +59,6 @@ curl https://gh.dmnb.cf/https://github.com/zzy-ac/txt2epub/releases/download/fil
 经过测试目前可将命名格式符合要求的文本直接拖动到run.py文件上来一键生成epub和kepub文件（需将py文件的默认打开方式设置为Python,如下图：
 
 
-![https://img.dmnb.cf/2024-08-12-66b9aff3cf3bc.webp](https://img.dmnb.cf/2024-08-12-66b9aff3cf3bc.webp)
+![https://img.m-l.cc/2024-08-12-66b9aff3cf3bc.webp](https://img.m-l.cc/2024-08-12-66b9aff3cf3bc.webp)
 
 #### windows版本注意事项：千万要看`压缩包里的必读！！不然出错不负责.md`文件

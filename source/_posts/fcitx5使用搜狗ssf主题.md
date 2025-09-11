@@ -26,7 +26,7 @@ ssfconv 目标主题.ssf 目标文件夹 --type fcitx5
 * 之后将包含fcitx5主题文件的目标文件夹放到<code>~/.local/share/fcitx5/themes</code>目录下。进入fcitx5配置切换主题即可
 
 ### 效果展示
-<img src="https://img.dmnb.cf/2024-08-12-66b9c69ff3c9c.webp" style="width: 380px;height: 240px;">
-<img src="https://img.dmnb.cf/2024-08-12-66b9c6b71f16b.webp" style="width: 380px;height: 240px;">
-<img src="https://img.dmnb.cf/2024-08-12-66b9c63390d47.webp" style="width: 380px;height: 240px;">
-<img src="https://img.dmnb.cf/2024-08-12-66b9c71662f37.webp" style="width: 380px;height: 240px;">
+<img src="https://img.m-l.cc/2024-08-12-66b9c69ff3c9c.webp" style="width: 380px;height: 240px;">
+<img src="https://img.m-l.cc/2024-08-12-66b9c6b71f16b.webp" style="width: 380px;height: 240px;">
+<img src="https://img.m-l.cc/2024-08-12-66b9c63390d47.webp" style="width: 380px;height: 240px;">
+<img src="https://img.m-l.cc/2024-08-12-66b9c71662f37.webp" style="width: 380px;height: 240px;">

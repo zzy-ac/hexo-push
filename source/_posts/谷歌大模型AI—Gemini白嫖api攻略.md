@@ -22,28 +22,28 @@ updated: '2024-03-01T11:30:03.687+08:00'
 
 [https://ai.google.dev/pricing](https://ai.google.dev/pricing)
 
-![谷歌开放平台](https://img.dmnb.cf/2024-08-12-66b9b0634679b.webp)
+![谷歌开放平台](https://img.m-l.cc/2024-08-12-66b9b0634679b.webp)
 
 往下拉可以看到2个版本的API。
 
 选择左边的免费版。
 
-![选择左边的免费版](https://img.dmnb.cf/2024-08-12-66b9aef115743.webp)
+![选择左边的免费版](https://img.m-l.cc/2024-08-12-66b9aef115743.webp)
 
 登录@[gmail.com](https://gmail.com)邮箱。(需要自行寻找合适的节点进行科学上网)
 
 之后同意下图所示的第一个协议（二三个复选框是允许推广，可选可不选）
 
-![同意协议](https://img.dmnb.cf/2024-08-12-66b9adc21d198.webp)
+![同意协议](https://img.m-l.cc/2024-08-12-66b9adc21d198.webp)
 
 
 在这个界面选择第二项。
 
 获取API秘钥
 
-![获取API秘钥](https://img.dmnb.cf/2024-08-12-66b9ad3513373.webp)
+![获取API秘钥](https://img.m-l.cc/2024-08-12-66b9ad3513373.webp)
 
-![](https://img.dmnb.cf/2024-08-12-66b9ad9844476.webp)
+![](https://img.m-l.cc/2024-08-12-66b9ad9844476.webp)
 
 这里会生成一个API的秘钥，
 
@@ -51,7 +51,7 @@ updated: '2024-03-01T11:30:03.687+08:00'
 
 没有保存，就需要重新生成了。
 
-![](https://img.dmnb.cf/2024-08-12-66b9aef61bf3f.webp)
+![](https://img.m-l.cc/2024-08-12-66b9aef61bf3f.webp)
 
 OK 这样我们的免费API就申请好了。
 
@@ -67,7 +67,7 @@ OK 这样我们的免费API就申请好了。
 
 在按照教程搭建好chatgpt-next-web后，进入项目设置的环境变量部分：
 
-![https://img.dmnb.cf/2024-08-12-66b9ad0f3c075.webp](https://img.dmnb.cf/2024-08-12-66b9ad0f3c075.webp)
+![https://img.m-l.cc/2024-08-12-66b9ad0f3c075.webp](https://img.m-l.cc/2024-08-12-66b9ad0f3c075.webp)
 
 删除多余的环境变量（如，没有openai的token你就删掉它。）
 
@@ -81,11 +81,11 @@ GOOGLE_API_KEY=<apikey>  # 这里填入你刚刚申请到的gemini的api-key
 
 然后点击项目的`deployments`按钮，创建新的部署
 
-![https://img.dmnb.cf/2024-08-12-66b9af5d369bc.webp](https://img.dmnb.cf/2024-08-12-66b9af5d369bc.webp)
+![https://img.m-l.cc/2024-08-12-66b9af5d369bc.webp](https://img.m-l.cc/2024-08-12-66b9af5d369bc.webp)
 
 等待部署完毕后，你的私人大模型ai就创建成功了，开始享用你的ai吧！
 
-![https://img.dmnb.cf/2024-08-12-66b9acc919b84.webp](https://img.dmnb.cf/2024-08-12-66b9acc919b84.webp)
+![https://img.m-l.cc/2024-08-12-66b9acc919b84.webp](https://img.m-l.cc/2024-08-12-66b9acc919b84.webp)
 
 # 完毕
 
@@ -93,4 +93,4 @@ GOOGLE_API_KEY=<apikey>  # 这里填入你刚刚申请到的gemini的api-key
 
 如果vercel.app被墙了，请自行解析一个自定义域名用于访问你的ai网站。
 
-![https://img.dmnb.cf/2024-08-12-66b9ae2ad8e35.webp](https://img.dmnb.cf/2024-08-12-66b9ae2ad8e35.webp)
+![https://img.m-l.cc/2024-08-12-66b9ae2ad8e35.webp](https://img.m-l.cc/2024-08-12-66b9ae2ad8e35.webp)

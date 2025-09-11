@@ -78,25 +78,25 @@ rm koreader-$ver-amd64.deb
 echo OK
 ```
 
-![image-20211201005340911](https://img.dmnb.cf/2024-08-12-66b9afddb7d06.webp)
+![image-20211201005340911](https://img.m-l.cc/2024-08-12-66b9afddb7d06.webp)
 
 ## 用action将上述修改好的PKGBUILD文件push到aur仓库中去
 
 在这里我们使用了[KSXGitHub/github-actions-deploy-aur](https://github.com/KSXGitHub/github-actions-deploy-aur)这一现成的action来完成这一步骤。
 
-![image-20211201005539998](https://img.dmnb.cf/2024-08-12-66b9af2931edd.webp)
+![image-20211201005539998](https://img.m-l.cc/2024-08-12-66b9af2931edd.webp)
 
 我们只用参照其编写的README.md中的介绍将对应的参数填入你的`main.yml`中的对应位置就可以了。
 
-![image-20211201005614409](https://img.dmnb.cf/2024-08-12-66b9ad0a475f0.webp)
+![image-20211201005614409](https://img.m-l.cc/2024-08-12-66b9ad0a475f0.webp)
 
-![image-20211201005640741](https://img.dmnb.cf/2024-08-12-66b9adf16d9cd.webp)
+![image-20211201005640741](https://img.m-l.cc/2024-08-12-66b9adf16d9cd.webp)
 
 接下来我们只要在仓库中建立一个/数个你要打包的包名命名的文件夹，并将对应的PKGBUILD放入文件夹中就可以了。
 
-![image-20211201005712531](https://img.dmnb.cf/2024-08-12-66b9add720207.webp)
+![image-20211201005712531](https://img.m-l.cc/2024-08-12-66b9add720207.webp)
 
-![image-20211201005737295](https://img.dmnb.cf/2024-08-12-66b9b08b10968.webp)
+![image-20211201005737295](https://img.m-l.cc/2024-08-12-66b9b08b10968.webp)
 
 ## 定时运行
 
