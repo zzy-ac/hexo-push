@@ -112,6 +112,6 @@ CloudFlare R2 是 Cloudflare 公司推出的一款兼容 S3 API  的免费云存
 
 如果使用alist+网盘的储存方案时用到如`一刻相册`这样的国内网盘，那么为了放置被恶意上传色图、血腥图片等18禁内容，还应该打开lsky-pro的图片审核功能，识别到色图直接删除，避免风险。
 
-如果希望体验一下我的图床的话，欢迎注册使用!：[lsky.dmnb.cf](https://lsky.dmnb.cf)
+如果希望体验一下我的图床的话，欢迎注册使用!：[lsky.m-l.cc](https://lsky.m-l.cc)
 
 ![https://img.m-l.cc/2024-08-12-66b9acfe16aab.webp](https://img.m-l.cc/2024-08-12-66b9acfe16aab.webp)

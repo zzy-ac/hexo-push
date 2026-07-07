@@ -22,7 +22,7 @@ updated: '2025-09-13T17:40:29.315+08:00'
 
 ## 1、添加字体固件和脚本
 
-首先将[freefont.zip](https://pan.dmnb.cf/Other/Kobo_Activation/freefont.zip)解压到 `.add`文件夹下
+首先将[freefont.zip](https://pan.m-l.cc/Other/Kobo_Activation/freefont.zip)解压到 `.add`文件夹下
 
 默认的固件包包括一个原生字体和一个由群友[喻米](https://wpa.qq.com/msgrd?v=3&uin=1581755776&site=qq&menu=yes)提供的书刻字体
 

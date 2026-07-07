@@ -39,7 +39,7 @@ apt update&&apt upgrade
 3、运行如下指令：
 
 ```bash
-curl https://gh.dmnb.cf/https://github.com/zzy-ac/txt2epub/releases/download/files/install.sh | bash
+curl https://gh.m-l.cc/https://github.com/zzy-ac/txt2epub/releases/download/files/install.sh | bash
 ```
 
 ## 使用txt2epub

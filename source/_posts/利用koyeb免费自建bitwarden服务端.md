@@ -80,7 +80,7 @@ OTP和FreeOTP以及国产程序“神锁离线版”等等,可以自己选择合
 
 ![https://img.m-l.cc/2024-08-12-66b9b0700f4b8.webp](https://img.m-l.cc/2024-08-12-66b9b0700f4b8.webp)
 
-选择已创建好的[空白数据库](https://gh.dmnb.cf/https://raw.githubusercontent.com/zzy-ac/My-Selves-Cloud/main/vaultwarden.sql)并导入：
+选择已创建好的[空白数据库](https://gh.m-l.cc/https://raw.githubusercontent.com/zzy-ac/My-Selves-Cloud/main/vaultwarden.sql)并导入：
 
 ![https://img.m-l.cc/2024-08-12-66b9ae1e17ba9.webp](https://img.m-l.cc/2024-08-12-66b9ae1e17ba9.webp)
 

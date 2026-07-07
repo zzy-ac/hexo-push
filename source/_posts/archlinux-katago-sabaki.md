@@ -47,7 +47,7 @@ paru -S sabaki
 [zzy-ac]
 SigLevel=Never
 Server = https://github.com/zzy-ac/repo/releases/download/x86_64/
-Server = https://gh.dmnb.cf/https://github.com/zzy-ac/repo/releases/download/x86_64/
+Server = https://gh.m-l.cc/https://github.com/zzy-ac/repo/releases/download/x86_64/
 
 # 更新源
 
