@@ -8,13 +8,13 @@ tags:
 - kindle
 - eink
 title: kindle(7代之前)安卓系统(CrackDroid)刷机指南
-updated: '2026-08-22T13:37:17.031+08:00'
+updated: '2026-08-22T14:33:18.410+08:00'
 ---
 # 1、确认机型是否支持
 
 ![确认kindle型号](https://image.m-l.cc/file/1787377523764_图片.png)
 
-然后在这个网址比对 MobileRead Wiki - Kindle Serial Numbers
+然后在这个网址比对 [MobileRead Wiki - Kindle Serial Numbers](https://wiki.mobileread.com/wiki/Kindle_Serial_Numbers)
 再看是否支持刷安卓
 
 ## 1.1 支持机型
@@ -169,8 +169,6 @@ KUAL 打开点击 FlashAndroid 等待系统自动重启至进度条卡死。
 使用此工具制作出来的升级包可智能识别当前系统为双系统/原生单系统，因此原生单系统也可以使用此工具制作出来的升级包进行原生系统的升级/降级操作。
 
 注意！使用此工具前请保证您的 Kindle 已经升级到 CracKDroid Build 1.5 以上版本，如不是 Build 1.5 以上版本请升级到 Build 1.5 以上版本后再操作。
-
-
 
 # 总结
 
