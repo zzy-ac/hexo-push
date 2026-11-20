@@ -6,8 +6,8 @@ date: '2026-11-20T22:10:08.279763+08:00'
 keywords: null
 tags:
 - kindle
-title: 原创插件分享：为 Kindle 打造一个极简、原生且常驻屏幕的 FTP 传书服务
-updated: '2026-11-20T22:10:14.286+08:00'
+title: 原创插件分享：为 Kindle 打造一个极简、原生、轻量化的 FTP 传书服务
+updated: '2026-11-20T22:34:50.464+08:00'
 ---
 项目地址：**https://github.com/zzy-ac/kindle-ftp-server**
 
